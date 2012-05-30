@@ -1,5 +1,4 @@
-
 Darragh Breathnach
 Fintan Costello
-Eoin O'Loidean
+Eoin Ó Loideáin
 Alan McCormack
