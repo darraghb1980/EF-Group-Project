@@ -1,0 +1,2 @@
+***Templates for API drafting specs******
+http://dev.w3.org/geo/api/spec-source.html
