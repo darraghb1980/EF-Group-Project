@@ -1,2 +1,5 @@
 ***Templates for API drafting specs******
 http://dev.w3.org/geo/api/spec-source.html
+
+***W3Schools tutorial info on working with files (CSV)
+http://www.w3schools.com/aspnet/webpages_files.asp
