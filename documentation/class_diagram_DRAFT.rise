@@ -213,7 +213,7 @@
 <rise:model xmlns:rise="http://www.r2bsoftware/ns/rise/">
   <rise:modelInfo>
     <rise:name>New Model</rise:name>
-    <rise:prefix />
+    <rise:prefix>_efproject</rise:prefix>
     <rise:guid>6a6bb62a-ae5f-46e6-895c-cc472ff10bcf</rise:guid>
     <rise:engineVersion>4.4.4496.27133</rise:engineVersion>
     <rise:integerSize>64</rise:integerSize>
