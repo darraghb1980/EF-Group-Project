@@ -5,3 +5,10 @@ C:\Users\DB\Documents\NCI\Enterprise Frameworks\MvcDemo\MvcDemo\bin\EntityFramew
 C:\Users\DB\Documents\NCI\Enterprise Frameworks\MvcDemo\MvcDemo\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\DB\Documents\NCI\Enterprise Frameworks\MvcDemo\MvcDemo\obj\Debug\MvcDemo.dll
 C:\Users\DB\Documents\NCI\Enterprise Frameworks\MvcDemo\MvcDemo\obj\Debug\MvcDemo.pdb
+C:\Users\DB\Documents\GitHub\EF-Group-Project\research\MvcDemo\MvcDemo\bin\MvcDemo.dll
+C:\Users\DB\Documents\GitHub\EF-Group-Project\research\MvcDemo\MvcDemo\bin\MvcDemo.pdb
+C:\Users\DB\Documents\GitHub\EF-Group-Project\research\MvcDemo\MvcDemo\bin\EntityFramework.dll
+C:\Users\DB\Documents\GitHub\EF-Group-Project\research\MvcDemo\MvcDemo\bin\EntityFramework.xml
+C:\Users\DB\Documents\GitHub\EF-Group-Project\research\MvcDemo\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+C:\Users\DB\Documents\GitHub\EF-Group-Project\research\MvcDemo\MvcDemo\obj\Debug\MvcDemo.dll
+C:\Users\DB\Documents\GitHub\EF-Group-Project\research\MvcDemo\MvcDemo\obj\Debug\MvcDemo.pdb

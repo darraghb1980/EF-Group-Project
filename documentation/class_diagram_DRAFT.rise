@@ -1064,7 +1064,7 @@
         <rise:showAttributeDetails>False</rise:showAttributeDetails>
         <rise:showIndexes>False</rise:showIndexes>
         <rise:boundingBox>
-          <rise:x>634</rise:x>
+          <rise:x>633</rise:x>
           <rise:y>444</rise:y>
           <rise:sizeX>131</rise:sizeX>
           <rise:sizeY>150</rise:sizeY>
@@ -1081,7 +1081,7 @@
         <rise:boundingBox>
           <rise:x>285</rise:x>
           <rise:y>148</rise:y>
-          <rise:sizeX>131</rise:sizeX>
+          <rise:sizeX>150</rise:sizeX>
           <rise:sizeY>150</rise:sizeY>
         </rise:boundingBox>
         <rise:color>

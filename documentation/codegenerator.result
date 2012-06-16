@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE risecode:generatorResult[<!--DTD for RISECODE XML 1.1 by RISE to Bloome Software AB,copyright 2010, 2011 -->
+<!ELEMENT risecode:generatorResult (risecode:generator,risecode:model,risecode:user,(risecode:error|risecode:warning)?,risecode:files)>
+<!ATTLIST risecode:generatorResult xmlns:risecode CDATA #FIXED "http://www.r2bsoftware/ns/risecode/">
+<!ATTLIST risecode:generatorResult risecode:date CDATA #REQUIRED>
+<!ELEMENT risecode:generator (#PCDATA)>
+<!ATTLIST risecode:generator risecode:name CDATA #REQUIRED>
+<!ATTLIST risecode:generator risecode:type (DATABASE|APPLICATION|CUSTOM) #REQUIRED>
+<!ELEMENT risecode:model EMPTY>
+<!ATTLIST risecode:model risecode:guid CDATA #REQUIRED>
+<!ATTLIST risecode:model risecode:prefix CDATA #REQUIRED>
+<!ATTLIST risecode:model risecode:name CDATA #REQUIRED>
+<!ATTLIST risecode:model risecode:evolution CDATA #REQUIRED>
+<!ELEMENT risecode:date (#PCDATA)>
+<!ELEMENT risecode:user (#PCDATA)>
+<!ELEMENT risecode:error (#PCDATA)>
+<!ELEMENT risecode:warning (#PCDATA)>
+<!ELEMENT risecode:files (risecode:file*)>
+<!ELEMENT risecode:file EMPTY>
+<!ATTLIST risecode:file risecode:name CDATA #REQUIRED>
+<!ATTLIST risecode:file risecode:type (INCREMENTALSQL|NONINCREMENTALSQL|APPLICATIONSOURCE|CONFIGURATION|CUSTOM) #REQUIRED>
+<!ATTLIST risecode:file risecode:bom (True|False) #REQUIRED>
+<!ATTLIST risecode:file risecode:encoding CDATA #REQUIRED>
+<!ATTLIST risecode:file risecode:delimiter CDATA #IMPLIED>
+<!ATTLIST risecode:file risecode:overwriteBehavior (OVERWRITE|LEAVE|MERGE) #REQUIRED>
+<!ATTLIST risecode:file risecode:parent CDATA #IMPLIED>
+]>
+<risecode:generatorResult risecode:date="2012-06-16T11:11:45" xmlns:risecode="http://www.r2bsoftware/ns/risecode/">
+  <risecode:user>DB</risecode:user>
+  <risecode:model risecode:guid="6a6bb62a-ae5f-46e6-895c-cc472ff10bcf" risecode:prefix="_efproject" risecode:name="New Model" risecode:evolution="61" />
+  <risecode:generator risecode:name="RISE.Code.csharp, Version=4.4.4216.32210, Culture=neutral, PublicKeyToken=aec20feb6a756a8b" risecode:type="APPLICATION">csharp (c#) for odbc code generator</risecode:generator>
+  <risecode:files />
+</risecode:generatorResult>

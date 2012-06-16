@@ -1,0 +1,5 @@
+string firstName;
+string lastName;
+string postCode;
+string relationship;
+
