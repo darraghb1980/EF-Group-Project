@@ -20,8 +20,11 @@ namespace teamcanada.Models
         [Column(Name = "CONTRIBUTORLASTNAME")]
         public String contributorLastName { get; set; }
 
-        [Column(Name = "POSTCODE")]
-        public String postCode { get; set; }
+        [Column(Name = "CONTRIBUTORPOSTCODE")]
+        public String contributorPostCode { get; set; }
+
+        [Column(Name = "CONTRIBUTORADDRESS")]
+        public String contributorAaddress { get; set; }
 
         [Column(Name = "RELATIONSHIP")]
         public String relationship { get; set; }
@@ -29,11 +32,12 @@ namespace teamcanada.Models
         public Contributor()
         {
         }
-        public Contributor(String _contributorFirstName, String _contributorLastName, String _postCode, String _relationship)
+        public Contributor(String _contributorFirstName, String _contributorLastName, String _contributorPostCode, String _contributorAddress, String _relationship)
         {
             this.contributorFirstName = _contributorFirstName;
             this.contributorLastName = _contributorLastName;
-            this.postCode = _postCode;
+            this.contributorPostCode = _contributorPostCode;
+            this.contributorAaddress = _contributorAddress; 
             this.relationship = _relationship;
         }
 
