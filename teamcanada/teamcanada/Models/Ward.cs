@@ -22,9 +22,6 @@ namespace teamcanada.Models
         [Column(Name = "WARDNAME")]
         public String wardName { get; set; }
 
-        [Column(Name = "NUMWARDVOTES")]
-        public int numWardVotes { get; set; }
-
         [Column(Name = "TOTALWARDCONTRIBUTIONS")]
         public float totalWardContributions { get; set; }
 
@@ -32,12 +29,11 @@ namespace teamcanada.Models
         { 
         }
 
-        public Ward(int _wardNum, int _numCandidates, String _wardName, int _numWardVotes, float _totalWardContributions)
+        public Ward(int _wardNum, int _numCandidates, String _wardName, float _totalWardContributions)
         {
             this.wardNum = _wardNum;
             this.numCandidates = _numCandidates;
             this.wardName = _wardName;
-            this.numWardVotes = _numWardVotes;
             this.totalWardContributions = _totalWardContributions;
         }
 
