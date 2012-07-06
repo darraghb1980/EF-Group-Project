@@ -137,8 +137,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="ingestion\iDataParser.cs" />
-    <Compile Include="ingestion\voteParse.cs" />
+    <Compile Include="ingestion\electionDataParser.cs" />
+    <Compile Include="ingestion\electionParse.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Candidate.cs" />
     <Compile Include="Models\Contribution.cs" />

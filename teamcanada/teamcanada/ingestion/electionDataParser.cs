@@ -7,9 +7,9 @@ using System.IO;
 
 namespace teamcanada.ingestion
 {
-    interface IDataParser
+    interface electionDataParser
     {
-        List<ExchangeRate> parseExchangeRate();
+        List<Election> parseElection();
         void setStreamSource(StreamReader reader); // streamreader will be defined in the business logic
         Boolean supportsType(String format);
     }
