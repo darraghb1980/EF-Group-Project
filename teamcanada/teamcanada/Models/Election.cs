@@ -16,7 +16,7 @@ namespace teamcanada.Models
         public String electionType { get; set; }
 
         [Column(Name = "ELECTIONYEAR")]
-        public DateTime electionYear { get; set; }
+        public int ElectionYear { get; set; }
 
         [Column(Name = "TOTALNUMVOTES")]
         public int totalNumVotes { get; set; }
@@ -27,10 +27,10 @@ namespace teamcanada.Models
         public Election()
         {
         }
-        public Election(String _electionType, DateTime _electionYear, int _totalNumVotes, int _totalNumCandidates)
+        public Election(String _electionType, int _ElectionYear, int _totalNumVotes, int _totalNumCandidates)
         {
             this.electionType = _electionType;
-            this.electionYear = _electionYear;
+            this.ElectionYear = _ElectionYear;
             this.totalNumVotes = _totalNumVotes;
             this.totalNumCandidates = _totalNumCandidates;
         }

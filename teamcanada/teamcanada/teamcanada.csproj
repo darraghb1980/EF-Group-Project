@@ -139,6 +139,7 @@
     </Compile>
     <Compile Include="ingestion\electionDataParser.cs" />
     <Compile Include="ingestion\electionParse.cs" />
+    <Compile Include="ingestion\IgetCSV.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Candidate.cs" />
     <Compile Include="Models\Contribution.cs" />
@@ -153,10 +154,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\toronto_elections.mdf" />
-    <Content Include="App_Data\toronto_elections_log.ldf">
-      <DependentUpon>toronto_elections.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -244,7 +241,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

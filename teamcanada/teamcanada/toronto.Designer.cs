@@ -357,6 +357,8 @@ namespace teamcanada
             }
         }
         private global::System.Decimal _totalContributions;
+        public string candidateLastName;
+        public string candidateFirstName;
         partial void OntotalContributionsChanging(global::System.Decimal value);
         partial void OntotalContributionsChanged();
 
@@ -1055,6 +1057,7 @@ namespace teamcanada
             }
         }
         private global::System.Int32 _totalNumCandidates;
+        public int ElectionYear;
         partial void OntotalNumCandidatesChanging(global::System.Int32 value);
         partial void OntotalNumCandidatesChanged();
 

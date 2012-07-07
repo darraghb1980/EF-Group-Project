@@ -70,3 +70,5 @@ C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\System.W
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\obj\Debug\teamcanada.csprojResolveAssemblyReference.cache
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\obj\Debug\teamcanada.dll
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\obj\Debug\teamcanada.pdb
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada\obj\Debug\ResolveAssemblyReference.cache
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada\obj\Debug\teamcanada.dll

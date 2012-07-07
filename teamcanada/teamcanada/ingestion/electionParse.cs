@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Web;
-using System.Linq;
-using System.Text;
-using LumenWorks.Framework.IO;
 using LumenWorks.Framework.IO.Csv;
 using teamcanada.Models;
 
@@ -16,11 +12,14 @@ namespace teamcanada.ingestion
         private String supportedFormat = "csv";
         private StreamReader reader;
 
-        List<Models.Election> electionDataParser.parseElection()
+
+           // bring in election model 
+
+        List<Election> electionDataParser.parseElection()
         {
             List<Election> lst = new List<Election>();
             CsvReader csv = new CsvReader(reader, true);
-            int fieldCount = csv.FieldCount;
+            int fieldCount = csv.FieldCount; 
             
             String[] headers = csv.GetFieldHeaders();
 
@@ -33,7 +32,6 @@ namespace teamcanada.ingestion
                 {
                     if (headers[i].Equals("id"))
                     {
-                       //  exObj.ELECTIONTYPE = csv[i];
                     }
                     else if (headers[i].Equals("ELECTIONTYPE"))
                     {
@@ -41,15 +39,61 @@ namespace teamcanada.ingestion
                     }
                     else if (headers[i].Equals("ELECTIONYEAR"))
                     {
-                        exObj.electionYear = csv[i];
+                        exObj.ElectionYear = Convert.ToInt32(csv[i]);
                     }
                     else if (headers[i].Equals("TOTALNUMVOTES"))
                     {
-                        exObj.totalNumVotes = csv[i];
+                        exObj.totalNumVotes = Convert.ToInt32(csv[i]);
                     }
                     else if (headers[i].Equals("TOTALNUMCANDIDATES"))
                     {
-                        exObj.totalNumCandidates = csv[i];
+                        exObj.totalNumCandidates = Convert.ToInt32(csv[i]);
+                    }
+                    
+                }
+
+                lst.Add(exObj);
+            }
+            return lst;
+        }
+
+        /*
+        
+        // bring in candidate model
+
+        List<Candidate> electionDataParser.parseCandidate()
+        {
+            List<Candidate> lst = new List<Candidate>();
+            CsvReader csv = new CsvReader(reader, true);
+            int fieldCount = csv.FieldCount;
+
+            String[] headers = csv.GetFieldHeaders();
+
+            while (csv.ReadNextRecord())
+            {
+
+                Candidate exObj = new Candidate();
+
+                for (int i = 0; i < fieldCount; i++)
+                {
+                    if (headers[i].Equals("id"))
+                    {
+                    }
+                    else if (headers[i].Equals("CANDIDATEFIRSTNAME"))
+                    {
+                        exObj.candidateFirstName = csv[i];
+                    }
+                    else if (headers[i].Equals("CANDIDATELASTNAME"))
+                    {
+                        exObj.candidateLastName = csv[i];
+                    }
+                    else if (headers[i].Equals("NUMVOTES"))
+                    {
+                        exObj.numVotes = Convert.ToInt32(csv[i]);
+                    }
+                    else if (headers[i].Equals("TOTALNUMCONTRIBUTIONS"))
+                    {
+                        exObj.totalContributions = Convert.ToInt32(csv[i]);
                     }
                 }
 
@@ -57,6 +101,9 @@ namespace teamcanada.ingestion
             }
             return lst;
         }
+         
+         */
+
 
         void electionDataParser.setStreamSource(StreamReader reader)
         {
