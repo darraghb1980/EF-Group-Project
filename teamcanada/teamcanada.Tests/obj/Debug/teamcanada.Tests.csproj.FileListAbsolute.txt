@@ -70,3 +70,41 @@ C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\De
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\teamcanada.Tests.csprojResolveAssemblyReference.cache
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\teamcanada.Tests.dll
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\teamcanada.Tests.pdb
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.Tests.dll.config
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.Tests.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.Tests.pdb
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Net.Http.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Helpers.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Http.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Mvc.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Razor.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Optimization.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\WebGrease.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.pdb
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Net.Http.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Helpers.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Http.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Mvc.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Razor.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.xml
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\teamcanada.Tests.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\teamcanada.Tests.pdb
