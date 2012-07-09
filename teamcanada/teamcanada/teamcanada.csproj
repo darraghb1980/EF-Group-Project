@@ -137,21 +137,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="ingestion\electionDataParser.cs" />
-    <Compile Include="ingestion\electionParse.cs" />
-    <Compile Include="ingestion\IgetCSV.cs" />
+    <Compile Include="ingestion\LoadCSV.cs" />
+    <Compile Include="ingestion\AllDataParser.cs" />
+    <Compile Include="ingestion\ResultsContribParse.cs" />
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\Candidate.cs" />
-    <Compile Include="Models\Contribution.cs" />
-    <Compile Include="Models\Contributor.cs" />
-    <Compile Include="Models\Election.cs" />
-    <Compile Include="Models\Ward.cs" />
+    <Compile Include="Models\Contributions.cs" />
+    <Compile Include="Models\Results.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="toronto.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>toronto.edmx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -199,7 +191,6 @@
     <Content Include="Scripts\knockout-2.0.0.debug.js" />
     <Content Include="Scripts\knockout-2.0.0.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
-    <Content Include="toronto.edmx.sql" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -246,12 +237,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="toronto.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>toronto.Designer.cs</LastGenOutput>
-    </EntityDeploy>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
