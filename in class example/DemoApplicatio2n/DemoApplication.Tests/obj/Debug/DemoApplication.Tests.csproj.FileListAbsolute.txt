@@ -1,0 +1,72 @@
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.dll.config
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.pdb
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Providers.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\DemoApplication.pdb
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\LumenWorks.Framework.IO.xml
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.dll
+C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.pdb
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.dll.config
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\DemoApplication.Tests.pdb
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\DemoApplication.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Providers.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\DemoApplication.pdb
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\bin\Debug\LumenWorks.Framework.IO.xml
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.csprojResolveAssemblyReference.cache
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.dll
+C:\Users\DB\Documents\NCI\Enterprise Frameworks\Projects\DemoApplicatio2n\DemoApplication.Tests\obj\Debug\DemoApplication.Tests.pdb

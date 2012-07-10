@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="68156362-dc78-46c6-b8f3-5deecd77e76b" name="lhogan@LHOGAN-PC 2012-06-30 15:10:24" runUser="lhogan-PC\lhogan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="4c8e3b11-f791-46f1-a6ee-edad9f8c7d89">
+    <Deployment userDeploymentRoot="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="lhogan_LHOGAN-PC 2012-06-30 15_10_24">
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication\bin\DemoApplication.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-30T15:10:24.1203154+01:00" queuing="2012-06-30T15:10:24.7433467+01:00" start="2012-06-30T15:10:24.7523473+01:00" finish="2012-06-30T15:10:25.3511703+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="parseExchangeRatesTest" storage="c:\users\lhogan\documents\visual studio 2010\projects\demoapplication\demoapplication.tests\bin\debug\demoapplication.tests.dll" id="4b222430-3b70-6115-7c8a-f65d67e8ff6e">
+      <Execution id="2d643f19-d4f8-4d00-add2-4cb55ab1f723" />
+      <TestMethod codeBase="C:/Users/lhogan/Documents/Visual Studio 2010/Projects/DemoApplication/DemoApplication.Tests/bin/Debug/DemoApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DemoApplication.Tests.CSVParserTest, DemoApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseExchangeRatesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4b222430-3b70-6115-7c8a-f65d67e8ff6e" executionId="2d643f19-d4f8-4d00-add2-4cb55ab1f723" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2d643f19-d4f8-4d00-add2-4cb55ab1f723" testId="4b222430-3b70-6115-7c8a-f65d67e8ff6e" testName="parseExchangeRatesTest" computerName="LHOGAN-PC" duration="00:00:00.0425469" startTime="2012-06-30T15:10:24.7553474+01:00" endTime="2012-06-30T15:10:25.0003614+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d643f19-d4f8-4d00-add2-4cb55ab1f723">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at DemoApplication.Tests.CSVParserTest.parseExchangeRatesTest() in C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\CSVParserTest.cs:line 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

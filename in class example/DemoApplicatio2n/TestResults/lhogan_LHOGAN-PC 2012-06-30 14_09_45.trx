@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="531a1cfb-8648-45fc-84af-6305f63d14bd" name="lhogan@LHOGAN-PC 2012-06-30 14:09:45" runUser="lhogan-PC\lhogan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="5bc8c948-8830-45be-8b1f-681d49c2ee9b">
+    <Deployment runDeploymentRoot="lhogan_LHOGAN-PC 2012-06-30 14_09_45">
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication\bin\DemoApplication.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication.Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-30T14:09:45.0023903+01:00" queuing="2012-06-30T14:09:47.2955944+01:00" start="2012-06-30T14:09:47.3111944+01:00" finish="2012-06-30T14:09:57.3576120+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="supportsTypeTest" storage="c:\users\lhogan\documents\visual studio 2010\projects\demoapplication\demoapplication.tests\bin\debug\demoapplication.tests.dll" id="1e2d8920-efc5-ed5d-8ea9-4900b1c5421a">
+      <DeploymentItems>
+        <DeploymentItem filename="DemoApplication.dll" />
+      </DeploymentItems>
+      <Execution id="31653918-028f-453b-b2df-1a4f436a26ff" />
+      <TestMethod codeBase="C:/Users/lhogan/Documents/Visual Studio 2010/Projects/DemoApplication/DemoApplication.Tests/bin/Debug/DemoApplication.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DemoApplication.Tests.CSVParserTest, DemoApplication.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest" />
+      <AspNet webSiteUrl="http://localhost:56662/">
+        <Host pathToWebApp="C:\Users\lhogan\Documents\Visual Studio 2010\Projects\DemoApplication\DemoApplication" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e2d8920-efc5-ed5d-8ea9-4900b1c5421a" executionId="31653918-028f-453b-b2df-1a4f436a26ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="31653918-028f-453b-b2df-1a4f436a26ff" testId="1e2d8920-efc5-ed5d-8ea9-4900b1c5421a" testName="supportsTypeTest" computerName="LHOGAN-PC" startTime="2012-06-30T14:09:47.3111944+01:00" endTime="2012-06-30T14:09:57.2952119+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31653918-028f-453b-b2df-1a4f436a26ff">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56662/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_supportsTypeTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="LHOGAN-PC\WebRequestResponse_supportsTypeTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

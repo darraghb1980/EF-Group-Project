@@ -1,0 +1,36 @@
+﻿@model DemoApplication.Models.ui.ExchangeUI
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>ExchangeUI</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.amount)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.amount)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.fromCurrency)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fromCurrency)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.toCurrency)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.toCurrency)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

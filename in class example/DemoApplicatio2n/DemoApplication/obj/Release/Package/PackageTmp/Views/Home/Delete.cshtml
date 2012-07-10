@@ -1,0 +1,39 @@
+﻿@model DemoApplication.Models.ExchangeRate
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>ExchangeRate</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.fromCurrency)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fromCurrency)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.toCurrency)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.toCurrency)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.rate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.rate)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
