@@ -9,3 +9,10 @@ http://www.agiledata.org/essays/dataModeling101.html#WhatIsDataModeling
 
 ***Link to to a visual modelling plug-in for Visual Studio***
 http://www.risetobloome.com/Page_1_S_NodeListing.aspx?item=2002
+
+***Link to Azure/.net
+https://www.windowsazure.com/en-us/develop/net/how-to-guides/sql-database/
+
+***creating azure project from existing
+http://msdn.microsoft.com/en-us/library/windowsazure/hh420322.aspx
+http://msdn.microsoft.com/en-us/library/windowsazure/hh420322.aspx#SQLAzure
