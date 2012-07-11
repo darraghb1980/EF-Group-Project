@@ -16,3 +16,9 @@ https://www.windowsazure.com/en-us/develop/net/how-to-guides/sql-database/
 ***creating azure project from existing
 http://msdn.microsoft.com/en-us/library/windowsazure/hh420322.aspx
 http://msdn.microsoft.com/en-us/library/windowsazure/hh420322.aspx#SQLAzure
+
+***creating dropdownlists
+http://msdn.microsoft.com/en-us/library/e0ybx34e
+
+***generate PDFs
+http://www.codeproject.com/Articles/7089/Generate-PDF-documents-from-a-HTML-page-using-ASP
