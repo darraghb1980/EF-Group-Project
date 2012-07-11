@@ -6,9 +6,10 @@ using System.Data.Entity;
 
 namespace teamcanada.Models
 {
-    public class ResultsDb : DbContext
+    public class torontoDb : DbContext
 
     {
-        public DbSet<Results> results { get; set; }
+        public DbSet<Results> results { get; set; } 
+        public DbSet<Contributions> contributions { get; set; }
     }
 }

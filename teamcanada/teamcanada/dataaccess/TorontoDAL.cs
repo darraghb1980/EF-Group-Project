@@ -4,14 +4,15 @@ using System.Linq;
 using System.Web;
 using teamcanada.Models;
 using System.Configuration;
+using teamcanada.ingestion;
 
 namespace teamcanada.dal
 {
-    public class ResultsDAL
+    public class torontoDAL
     {
-        protected ResultsDb db = new ResultsDb();
+        protected torontoDb db = new torontoDb();
 
-        public ResultsDAL()
+        public torontoDAL()
         {
             ConnectionStringSettingsCollection connections = ConfigurationManager.ConnectionStrings;
             if (connections.Count != 0)
@@ -38,30 +39,24 @@ namespace teamcanada.dal
             }
 
 
+            insertcsv();
+
         }
 
-        public ExchangeRate findExchangeRateForConversion(String from, String to)
+        public void insertcsv()
         {
-            List<ExchangeRate> rates = null;
-            rates = db.exchangeRates.ToList();
+            List<Results> results = null;
+            LoadCSV import = new LoadCSV();
+            results = import.loadResultsMayoral();
 
-            foreach (ExchangeRate r in rates)
+            foreach (Results r in results)
             {
-                if (r.toCurrency.Equals(to) && r.fromCurrency.Equals(from))
-                {
-                    return r;
-                }
+
+                db.results.Add(r);
             }
-            return null;
+
+            db.SaveChanges();
+
         }
-
-        /*      public ExchangeRate findExchangeRateById(int id) {
-                  return null;
-              }
-
-              public ExchangeRate addExchangeRate(ExchangeRate rate)
-              {
-                  return null;
-              }*/
     }
 }

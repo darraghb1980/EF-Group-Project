@@ -1,6 +1,9 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+
+
+
 @section featured {
     <section class="featured">
         <div class="content-wrapper">
@@ -20,6 +23,9 @@
 }    
 
 <img src="../../Images/south-park-blame-canada.jpg" />
+@foreach (var item in Model) { 
+    <p>@item.WARDNUM</p>
+}
 <h3>We suggest the following:</h3>
 <ol class="round">
 

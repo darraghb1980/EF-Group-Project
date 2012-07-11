@@ -134,18 +134,17 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="dataaccess\ResultsDAL.cs" />
+    <Compile Include="dataaccess\TorontoDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="ingestion\LoadCSV.cs" />
     <Compile Include="ingestion\AllDataParser.cs" />
     <Compile Include="ingestion\ResultsContribParse.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Contributions.cs" />
     <Compile Include="Models\Results.cs" />
-    <Compile Include="Models\ResultsDB.cs" />
+    <Compile Include="Models\TorontoDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

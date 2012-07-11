@@ -16,7 +16,7 @@ namespace teamcanada.ingestion
         public List<Results> loadResultsMayoral()
         {
             List<Results> lst = new List<Results>();
-            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\results_mayoral.csv", true);
+            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\csv\\results_mayoral.csv", true);
             all_data.setStreamSource(reader);
             lst = all_data.parseResults();
             return lst;
@@ -28,7 +28,7 @@ namespace teamcanada.ingestion
         public List<Results> loadResultsCouncil()
         {
             List<Results> lst = new List<Results>();
-            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\results_council.csv", true);
+            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\csv\\results_council.csv", true);
             all_data.setStreamSource(reader);
             lst = all_data.parseResults();
             return lst;
@@ -40,7 +40,7 @@ namespace teamcanada.ingestion
         public List<Contributions> loadContributionsMayoral()
         {
             List<Contributions> lst = new List<Contributions>();
-            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\contributions_mayoral.csv", true);
+            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\csv\\contributions_mayoral.csv", true);
             all_data.setStreamSource(reader);
             lst = all_data.parseContributions();
             return lst;
@@ -53,7 +53,7 @@ namespace teamcanada.ingestion
         public List<Contributions> loadContributionsCouncil()
         {
             List<Contributions> lst = new List<Contributions>();
-            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\contributions_council.csv", true);
+            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\csv\\contributions_council.csv", true);
             all_data.setStreamSource(reader);
             lst = all_data.parseContributions();
             return lst;

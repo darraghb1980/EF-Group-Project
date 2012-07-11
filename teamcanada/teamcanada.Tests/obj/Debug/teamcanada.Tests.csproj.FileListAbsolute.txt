@@ -87,10 +87,6 @@ C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.dll
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.dll
-C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Optimization.dll
-C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.dll
-C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\WebGrease.dll
-C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.pdb
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Net.Http.xml
@@ -108,3 +104,6 @@ C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\teamcanada.Tests.dll
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\teamcanada.Tests.pdb
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\EntityFramework.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Providers.dll
+C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\EntityFramework.xml
