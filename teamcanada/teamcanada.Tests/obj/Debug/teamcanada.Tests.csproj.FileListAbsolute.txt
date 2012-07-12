@@ -51,9 +51,6 @@ C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\De
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.dll
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.dll
-C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Optimization.dll
-C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\WebGrease.dll
-C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.pdb
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Net.Http.xml
@@ -107,3 +104,7 @@ C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\obj\Debug\teamcanada.
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\EntityFramework.dll
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Providers.dll
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\EntityFramework.xml
+C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\EntityFramework.dll
+C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Providers.dll
+C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\EntityFramework.xml
+C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.xml

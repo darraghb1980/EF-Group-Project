@@ -83,7 +83,7 @@ namespace teamcanada.Tests
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
         [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\eoiny\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
+        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
         [UrlToTest("http://localhost:53507/")]
         public void parseContributionsTest()
         {
@@ -103,7 +103,7 @@ namespace teamcanada.Tests
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
         [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\eoiny\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
+        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
         [UrlToTest("http://localhost:53507/")]
         public void parseResultsTest()
         {
@@ -123,7 +123,7 @@ namespace teamcanada.Tests
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
         [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\eoiny\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
+        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
         [UrlToTest("http://localhost:53507/")]
         public void setStreamSourceTest()
         {
@@ -141,7 +141,7 @@ namespace teamcanada.Tests
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
         [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\eoiny\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
+        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
         [UrlToTest("http://localhost:53507/")]
         public void supportsTypeTest()
         {

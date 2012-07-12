@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7dae707e-3408-4643-934d-47fca8a5a351" name="DB@DB-PC 2012-07-12 11:12:24" runUser="DB-PC\DB" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e5637ddd-5f70-464e-8799-d1672af28319">
+    <Deployment runDeploymentRoot="DB_DB-PC 2012-07-12 11_12_24">
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\teamcanada.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\WebGrease.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-12T11:12:24.2010514+01:00" queuing="2012-07-12T11:12:28.1922797+01:00" start="2012-07-12T11:12:28.6443055+01:00" finish="2012-07-12T11:12:55.2288261+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="4" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="1c476c79-de79-c4b0-9feb-11589fb7c420">
+      <Execution id="6b235aae-ef88-4190-8094-6fcb03c9731e" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.UnitTest1, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="bacea0ca-23fa-6e9b-ec10-6f388b7dbfc4">
+      <Execution id="494460c2-874f-45c6-b82b-d85a027c0741" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="parseContributionsTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="60a5a36c-81c6-bb2a-ec39-e1a882e6af19">
+      <Execution id="97428349-608a-4639-979d-59290ad4bf8c" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.AllDataParserTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseContributionsTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="parseResultsTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="b6b58e28-3b04-2c8c-f769-1a7df81e6909">
+      <Execution id="450f67ee-9636-4f56-a3c4-6bfda0976e39" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.AllDataParserTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseResultsTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Contact" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="173b91e2-abd7-a3d2-4842-7d45e0bb4fdc">
+      <Execution id="0ec44509-651a-4a90-9e85-7f9a15e8a242" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="84092891-3038-f296-9687-424a9f773bfb">
+      <Execution id="f99a133d-ca21-43b0-84ff-e2b7197a6db1" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="supportsTypeTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="74ca8a36-e891-f25a-640a-0f8d082ea528">
+      <Execution id="4911c575-fa63-4490-b922-1cb8677b64b4" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.AllDataParserTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="setStreamSourceTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="024d40ba-0108-34cf-0ae3-b03946470ff9">
+      <Execution id="76fe33ae-72be-4f20-a64d-ddd9f19061ee" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.AllDataParserTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="5e9e1c92-5d82-056c-f7ca-1ce949c99aec">
+      <Execution id="e2cfce26-d370-4c89-86d7-326961307a4f" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.TorontoDbTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="024d40ba-0108-34cf-0ae3-b03946470ff9" executionId="76fe33ae-72be-4f20-a64d-ddd9f19061ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="173b91e2-abd7-a3d2-4842-7d45e0bb4fdc" executionId="0ec44509-651a-4a90-9e85-7f9a15e8a242" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c476c79-de79-c4b0-9feb-11589fb7c420" executionId="6b235aae-ef88-4190-8094-6fcb03c9731e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e9e1c92-5d82-056c-f7ca-1ce949c99aec" executionId="e2cfce26-d370-4c89-86d7-326961307a4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60a5a36c-81c6-bb2a-ec39-e1a882e6af19" executionId="97428349-608a-4639-979d-59290ad4bf8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74ca8a36-e891-f25a-640a-0f8d082ea528" executionId="4911c575-fa63-4490-b922-1cb8677b64b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84092891-3038-f296-9687-424a9f773bfb" executionId="f99a133d-ca21-43b0-84ff-e2b7197a6db1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6b58e28-3b04-2c8c-f769-1a7df81e6909" executionId="450f67ee-9636-4f56-a3c4-6bfda0976e39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bacea0ca-23fa-6e9b-ec10-6f388b7dbfc4" executionId="494460c2-874f-45c6-b82b-d85a027c0741" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="76fe33ae-72be-4f20-a64d-ddd9f19061ee" testId="024d40ba-0108-34cf-0ae3-b03946470ff9" testName="setStreamSourceTest" computerName="DB-PC" startTime="2012-07-12T11:12:29.1793361+01:00" endTime="2012-07-12T11:12:29.2853422+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76fe33ae-72be-4f20-a64d-ddd9f19061ee">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ec44509-651a-4a90-9e85-7f9a15e8a242" testId="173b91e2-abd7-a3d2-4842-7d45e0bb4fdc" testName="Contact" computerName="DB-PC" duration="00:00:00.9284180" startTime="2012-07-12T11:12:29.3673469+01:00" endTime="2012-07-12T11:12:30.8824335+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ec44509-651a-4a90-9e85-7f9a15e8a242">
+    </UnitTestResult>
+    <UnitTestResult executionId="6b235aae-ef88-4190-8094-6fcb03c9731e" testId="1c476c79-de79-c4b0-9feb-11589fb7c420" testName="TestMethod1" computerName="DB-PC" duration="00:00:00.0004244" startTime="2012-07-12T11:12:30.9074350+01:00" endTime="2012-07-12T11:12:30.9164355+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b235aae-ef88-4190-8094-6fcb03c9731e">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2cfce26-d370-4c89-86d7-326961307a4f" testId="5e9e1c92-5d82-056c-f7ca-1ce949c99aec" testName="TestMethod1" computerName="DB-PC" duration="00:00:00.0005902" startTime="2012-07-12T11:12:30.9174355+01:00" endTime="2012-07-12T11:12:30.9234359+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2cfce26-d370-4c89-86d7-326961307a4f">
+    </UnitTestResult>
+    <UnitTestResult executionId="97428349-608a-4639-979d-59290ad4bf8c" testId="60a5a36c-81c6-bb2a-ec39-e1a882e6af19" testName="parseContributionsTest" computerName="DB-PC" startTime="2012-07-12T11:12:30.9244359+01:00" endTime="2012-07-12T11:12:30.9274361+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97428349-608a-4639-979d-59290ad4bf8c">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4911c575-fa63-4490-b922-1cb8677b64b4" testId="74ca8a36-e891-f25a-640a-0f8d082ea528" testName="supportsTypeTest" computerName="DB-PC" startTime="2012-07-12T11:12:30.9294362+01:00" endTime="2012-07-12T11:12:30.9304363+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4911c575-fa63-4490-b922-1cb8677b64b4">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f99a133d-ca21-43b0-84ff-e2b7197a6db1" testId="84092891-3038-f296-9687-424a9f773bfb" testName="Index" computerName="DB-PC" duration="00:00:22.5714697" startTime="2012-07-12T11:12:30.9324364+01:00" endTime="2012-07-12T11:12:53.5107278+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f99a133d-ca21-43b0-84ff-e2b7197a6db1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Modify this template to kick-start your ASP.NET MVC application.&gt;. Actual:&lt;Welcome to Team Canada!.&gt;. </Message>
+          <StackTrace>   at CallSite.Target(Closure , CallSite , Type , String , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at teamcanada.Tests.Controllers.HomeControllerTest.Index() in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\Controllers\HomeControllerTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="450f67ee-9636-4f56-a3c4-6bfda0976e39" testId="b6b58e28-3b04-2c8c-f769-1a7df81e6909" testName="parseResultsTest" computerName="DB-PC" startTime="2012-07-12T11:12:53.5167281+01:00" endTime="2012-07-12T11:12:53.5217284+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="450f67ee-9636-4f56-a3c4-6bfda0976e39">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="494460c2-874f-45c6-b82b-d85a027c0741" testId="bacea0ca-23fa-6e9b-ec10-6f388b7dbfc4" testName="About" computerName="DB-PC" duration="00:00:00.0038757" startTime="2012-07-12T11:12:53.5317290+01:00" endTime="2012-07-12T11:12:53.5567304+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="494460c2-874f-45c6-b82b-d85a027c0741">
+    </UnitTestResult>
+  </Results>
+</TestRun>
