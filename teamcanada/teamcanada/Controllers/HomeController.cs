@@ -3,25 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using teamcanada.ingestion;
 using teamcanada.Models;
+using teamcanada.dal;
+using System.Data.Entity;
 
 namespace teamcanada.Controllers
 {
     public class HomeController : Controller
     {
-        public torontoDb db = new torontoDb();
+        public torontoDB torontoDB = new torontoDB();
+
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to Team Canada!.";
-            List<Results> results = db.results.ToList();
-            return View(results);
-        }
+           // ViewBag.Message = "Welcome to Team Canada!.";
 
+            return View(torontoDB.ElectionResults.ToList());
+
+           // return View();
+        }
+            
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";
 
-            return View();
+            //torontoDAL.insertcsv();   
+
+          return View();
         }
 
         public ActionResult Contact()
