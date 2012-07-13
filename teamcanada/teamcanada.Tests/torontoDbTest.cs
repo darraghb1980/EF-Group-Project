@@ -78,7 +78,7 @@ namespace teamcanada.Tests
         [UrlToTest("http://localhost:53507/")]
         public void torontoDbConstructorTest()
         {
-            torontoDb target = new torontoDb();
+            torontoDB target = new torontoDB();
             Assert.Inconclusive("TODO: Implement code to verify target");
         }
 
@@ -94,7 +94,7 @@ namespace teamcanada.Tests
         [UrlToTest("http://localhost:53507/")]
         public void contributionsTest()
         {
-            torontoDb target = new torontoDb(); // TODO: Initialize to an appropriate value
+            torontoDB target = new torontoDB(); // TODO: Initialize to an appropriate value
             DbSet<Contributions> expected = null; // TODO: Initialize to an appropriate value
             DbSet<Contributions> actual;
             target.contributions = expected;

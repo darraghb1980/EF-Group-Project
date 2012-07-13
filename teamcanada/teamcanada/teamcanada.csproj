@@ -134,17 +134,32 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="dataaccess\TorontoDAL.cs" />
+    <Compile Include="Controllers\ResultsController.cs" />
+    <Compile Include="dal\TorontoDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="ingestion\LoadCSV.cs" />
+    <Compile Include="ingestion\ResultsLoadCSV.cs" />
     <Compile Include="ingestion\AllDataParser.cs" />
-    <Compile Include="ingestion\ResultsContribParse.cs" />
+    <Compile Include="ingestion\ResultsParse.cs" />
+    <Compile Include="Migrations\201207111718162_InitialCreate.cs" />
+    <Compile Include="Migrations\201207111718162_InitialCreate.Designer.cs">
+      <DependentUpon>201207111718162_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201207121105393_electionresults.cs" />
+    <Compile Include="Migrations\201207121105393_electionresults.Designer.cs">
+      <DependentUpon>201207121105393_electionresults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201207131021373_update.cs" />
+    <Compile Include="Migrations\201207131021373_update.Designer.cs">
+      <DependentUpon>201207131021373_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Contributions.cs" />
     <Compile Include="Models\Results.cs" />
-    <Compile Include="Models\TorontoDB.cs" />
+    <Compile Include="Models\torontoDB.cs" />
+    <Compile Include="Models\ui\ResultsUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

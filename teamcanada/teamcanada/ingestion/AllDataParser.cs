@@ -7,7 +7,7 @@ namespace teamcanada.ingestion
 {
     public interface AllDataParser
     {
-        List<Results> parseResults();
+        List<Results> parseResultsMayoral();
         List<Contributions> parseContributions();
         
         void setStreamSource(StreamReader reader); // streamreader will be defined in the business logic

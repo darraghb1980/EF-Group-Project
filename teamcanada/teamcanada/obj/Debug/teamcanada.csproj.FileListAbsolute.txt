@@ -145,4 +145,3 @@ C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\Syste
 C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\obj\Debug\teamcanada.dll
 C:\Users\eoiny\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\obj\Debug\teamcanada.pdb
-C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\LumenWorks.Framework.IO.xml
