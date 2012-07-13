@@ -7,7 +7,7 @@ using System.Data.Entity;
 namespace teamcanada.Tests
 {
     
-    
+    /*
     /// <summary>
     ///This is a test class for torontoDbTest and is intended
     ///to contain all torontoDbTest Unit Tests
@@ -123,5 +123,5 @@ namespace teamcanada.Tests
             Assert.AreEqual(expected, actual);
             Assert.Inconclusive("Verify the correctness of this test method.");
         }
-    }
+    }*/
 }

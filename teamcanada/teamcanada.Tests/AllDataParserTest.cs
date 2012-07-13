@@ -9,7 +9,7 @@ using System.IO;
 namespace teamcanada.Tests
 {
     
-    
+    /*
     /// <summary>
     ///This is a test class for AllDataParserTest and is intended
     ///to contain all AllDataParserTest Unit Tests
@@ -153,5 +153,5 @@ namespace teamcanada.Tests
             Assert.AreEqual(expected, actual);
             Assert.Inconclusive("Verify the correctness of this test method.");
         }
-    }
+    } */
 }
