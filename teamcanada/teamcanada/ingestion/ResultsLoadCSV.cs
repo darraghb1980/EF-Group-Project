@@ -16,7 +16,7 @@ namespace teamcanada.ingestion
         public List<Results> loadResultsMayoral()
         {
             List<Results> lst = new List<Results>();
-            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\csv\\test2.csv", true);
+            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\csv\\test3.csv", true);
             all_data.setStreamSource(reader);
             lst = all_data.parseResultsMayoral();
             return lst;

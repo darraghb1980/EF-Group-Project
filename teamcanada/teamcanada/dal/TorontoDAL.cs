@@ -12,7 +12,9 @@ namespace teamcanada.dal
     {
         protected torontoDB db = new torontoDB();
 
-        public torontoDAL()
+       
+        /*
+         * public torontoDAL()
         {
             ConnectionStringSettingsCollection connections = ConfigurationManager.ConnectionStrings;
             if (connections.Count != 0)
@@ -42,6 +44,7 @@ namespace teamcanada.dal
             insertcsv();
 
         }
+         * */
 
         public void insertcsv()
         {
