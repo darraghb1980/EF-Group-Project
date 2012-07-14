@@ -12,6 +12,7 @@ namespace teamcanada.ingestion
         private String supportedFormat = "csv";
         private StreamReader reader;
 
+        
 
            // bring in results data 
 
@@ -65,7 +66,7 @@ namespace teamcanada.ingestion
             return lst;
         }
 
- 
+
         // bring in contributions data
 
         List<Contributions> AllDataParser.parseContributions()

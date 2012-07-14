@@ -1,5 +1,4 @@
-﻿@model IEnumerable<teamcanada.Models.Results>
-
+﻿
 @{
     ViewBag.Title = "Home Page";
 }
@@ -23,55 +22,3 @@
 <img src="../../Images/south-park-blame-canada.jpg" />
 <h3>We suggest the following:</h3>
 
-
-<table border="1">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.ElectionType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ElectionYear)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.WardNum)
-        </th>
-         <th>
-            @Html.DisplayNameFor(model => model.NumVotes)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CandidateLastName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CandidateFirstName)
-        </th>
-        <th></th>
-        </tr>
-
-
-@foreach (var item in Model)
-
-    {
-    <tr>
-        <td>
-             @Html.DisplayFor(modelItem => item.ElectionType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ElectionYear)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.WardNum)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NumVotes)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CandidateLastName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CandidateFirstName)
-        </td>
-
-    </tr>
-     }
-
-</table>

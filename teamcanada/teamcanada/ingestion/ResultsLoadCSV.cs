@@ -23,8 +23,6 @@ namespace teamcanada.ingestion
 
         }
 
-
-
         // contributions 
 
         public List<Contributions> loadContributions()
@@ -37,7 +35,7 @@ namespace teamcanada.ingestion
     
         }
 
-
+       
      
 
     }

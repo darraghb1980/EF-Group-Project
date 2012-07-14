@@ -22,7 +22,7 @@ namespace teamcanada.Controllers
         {
            ViewBag.Message = "Welcome to Team Canada!.";
 
-           // return View(torontoDB.ElectionResults.ToList());
+          // return View(torontoDB.ElectionResults.ToList());
 
            return View();
         }
