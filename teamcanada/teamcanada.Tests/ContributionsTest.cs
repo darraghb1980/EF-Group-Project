@@ -210,8 +210,8 @@ namespace teamcanada.Tests
             Contributions target = new Contributions(); // TODO: Initialize to an appropriate value
             string expected = string.Empty; // TODO: Initialize to an appropriate value
             string actual;
-            target.ContributionTypeDesc = expected;
-            actual = target.ContributionTypeDesc;
+            target.ContributorTypeDesc = expected;
+            actual = target.ContributorTypeDesc;
             Assert.AreEqual(expected, actual);
             Assert.Inconclusive("Verify the correctness of this test method.");
         }

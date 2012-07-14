@@ -8,7 +8,7 @@ using System.ComponentModel;
 namespace teamcanada.Models
 {
     
-    [Table (Name = "RESULTS")] 
+    [Table (Name = "ELECTIONRESULTS")] 
     public class Results
     {
         [Column(IsPrimaryKey = true)]

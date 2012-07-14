@@ -12,6 +12,10 @@ namespace teamcanada.Controllers
 {
     public class HomeController : Controller
     {
+        // create reference to dal (methods you can run on the database)
+        public torontoDAL torontoDAL = new torontoDAL();
+
+        //create reference to database
         public torontoDB torontoDB = new torontoDB();
 
         public ActionResult Index()
@@ -27,7 +31,7 @@ namespace teamcanada.Controllers
         {
             ViewBag.Message = "Your app description page.";
 
-            //torontoDAL.insertcsv();   
+
 
           return View();
         }

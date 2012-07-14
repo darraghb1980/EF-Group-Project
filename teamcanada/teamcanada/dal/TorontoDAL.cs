@@ -12,50 +12,37 @@ namespace teamcanada.dal
     {
         protected torontoDB db = new torontoDB();
 
-       
-       
         public torontoDAL()
         {
-            ConnectionStringSettingsCollection connections = ConfigurationManager.ConnectionStrings;
-            if (connections.Count != 0)
-            {
-                Console.WriteLine();
-                System.Diagnostics.Debug.WriteLine("Using ConnectionStrings property");
-
-                //get the collection elements
-                foreach (ConnectionStringSettings connection in connections)
-                {
-                    string name = connection.Name;
-                    string provider = connection.ProviderName;
-                    string connectionString = connection.ConnectionString;
-
-                    System.Diagnostics.Debug.WriteLine("Name:       {0}", name);
-                    System.Diagnostics.Debug.WriteLine("Connection String:       {0}", connectionString);
-                    System.Diagnostics.Debug.WriteLine("Provider:       {0}", provider);
-
-                }
+          if ((db.ElectionResults.ToList().Count() == 0) && (db.ElectionContributions.ToList().Count() == 0))
+            { 
+                insertcsv();
             }
-            else
-            {
-                System.Diagnostics.Debug.WriteLine("no connection string is defined");
-            }
-
-
-            insertcsv();
 
         }
      
-
         public void insertcsv()
         {
             List<Results> results = null;
+            List<Contributions> contributions = null;
+
             ResultsLoadCSV import = new ResultsLoadCSV();
+
             results = import.loadResultsMayoral();
 
             foreach (Results r in results)
             {
 
                 db.ElectionResults.Add(r);
+            }
+
+
+            contributions = import.loadContributions();
+
+            foreach (Contributions r in contributions)
+            {
+
+                db.ElectionContributions.Add(r);
             }
 
             db.SaveChanges();

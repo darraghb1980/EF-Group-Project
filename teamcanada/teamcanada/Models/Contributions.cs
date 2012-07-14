@@ -8,7 +8,7 @@ using System.ComponentModel;
 namespace teamcanada.Models
 {
 
-    [Table(Name = "CONTRIBUTIONS")]
+    [Table(Name = "ELECTIONCONTRIBUTIONS")]
     public class Contributions
     {
         
@@ -21,19 +21,19 @@ namespace teamcanada.Models
         [Column(Name = "ELECTIONYEAR")]
         public int ElectionYear { get; set; }
 
-        [Column(Name = "CONTRIBUTORFIRSTNAME")]
-        public String ContributorFirstName { get; set; }
-
         [Column(Name = "CONTRIBUTORLASTNAME")]
         public String ContributorLastName { get; set; }
 
-        [Column(Name = "CONTRIBUTORPOSTCODE")]
-        public String ContributorPostCode { get; set; }
+        [Column(Name = "CONTRIBUTORFIRSTNAME")]
+        public String ContributorFirstName { get; set; }
 
         [Column(Name = "CONTRIBUTORADDRESS")]
         public String ContributorAddress { get; set; }
 
-        [Column(Name = "WARDNUM")]
+        [Column(Name = "CONTRIBUTORPOSTCODE")]
+        public String ContributorPostCode { get; set; }
+
+        [Column(Name = "WARD_NUM")]
         public int WardNum { get; set; }
 
         [Column(Name = "AMOUNT")]
