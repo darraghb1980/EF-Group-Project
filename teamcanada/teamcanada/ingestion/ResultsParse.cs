@@ -15,7 +15,7 @@ namespace teamcanada.ingestion
 
            // bring in results data 
 
-        List<Results> AllDataParser.parseResultsMayoral()
+        List<Results> AllDataParser.parseResults()
         {
             List<Results> lst = new List<Results>();
             CsvReader csv = new CsvReader(reader, true);
@@ -94,18 +94,48 @@ namespace teamcanada.ingestion
                     {
                         exObj.ElectionYear = Convert.ToInt32(csv[i]);
                     }
+                    else if (headers[i].Equals("CONTRIBUTORLASTNAME"))
+                    {
+                        exObj.ContributorLastName = csv[i];
+                    }
+                    else if (headers[i].Equals("CONTRIBUTORFIRSTNAME"))
+                    {
+                        exObj.ContributorFirstName = csv[i];
+                    }
+                    else if (headers[i].Equals("CONTRIBUTORADDRESS"))
+                    {
+                        exObj.ContributorAddress = csv[i];
+                    }
+                    else if (headers[i].Equals("CONTRIBUTORPOSTCODE"))
+                    {
+                        exObj.ContributorPostCode = csv[i];
+                    }
                     else if (headers[i].Equals("WARDNUM"))
                     {
                         exObj.WardNum = Convert.ToInt32(csv[i]);
                     }
-                    else if (headers[i].Equals("CANDIDATELASTNAME"))
+                    else if (headers[i].Equals("AMOUNT"))
                     {
-                        exObj.CandidateLastName = csv[i];
+                        exObj.Amount = Convert.ToSingle(csv[i]);
+                    }
+                    else if (headers[i].Equals("CONTRIBUTIONTYPEDESC"))
+                    {
+                        exObj.ContributionTypeDesc = csv[i];
+                    }
+                    else if (headers[i].Equals("CONTRIBUTORTYPEDESC"))
+                    {
+                        exObj.ContributorTypeDesc = csv[i];
                     }
                     else if (headers[i].Equals("CANDIDATEFIRSTNAME"))
                     {
                         exObj.CandidateFirstName = csv[i];
                     }
+                    else if (headers[i].Equals("CANDIDATELASTNAME"))
+                    {
+                        exObj.CandidateLastName = csv[i];
+                    }
+
+
 
                 }
 

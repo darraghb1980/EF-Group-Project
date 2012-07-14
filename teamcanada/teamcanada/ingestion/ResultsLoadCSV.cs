@@ -13,12 +13,12 @@ namespace teamcanada.ingestion
 
         // results
 
-        public List<Results> loadResultsMayoral()
+        public List<Results> loadResults()
         {
             List<Results> lst = new List<Results>();
-            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\csv\\results_mayoral.csv", true);
+            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\final_csv\\all_results.csv", true);
             all_data.setStreamSource(reader);
-            lst = all_data.parseResultsMayoral();
+            lst = all_data.parseResults();
             return lst;
 
         }
@@ -30,11 +30,11 @@ namespace teamcanada.ingestion
         public List<Contributions> loadContributions()
         {
             List<Contributions> lst = new List<Contributions>();
-            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\csv\\contrib_test.csv", true);
+            StreamReader reader = new StreamReader("C:\\EF Project\\EF-Group-Project\\datasets\\final_csv\\all_contributions.csv", true);
             all_data.setStreamSource(reader);
             lst = all_data.parseContributions();
             return lst;
-
+    
         }
 
 

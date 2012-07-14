@@ -20,11 +20,11 @@ namespace teamcanada.Controllers
 
         public ActionResult Index()
         {
-           // ViewBag.Message = "Welcome to Team Canada!.";
+           ViewBag.Message = "Welcome to Team Canada!.";
 
-            return View(torontoDB.ElectionResults.ToList());
+           // return View(torontoDB.ElectionResults.ToList());
 
-           // return View();
+           return View();
         }
             
         public ActionResult About()

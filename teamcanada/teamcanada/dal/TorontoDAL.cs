@@ -14,10 +14,11 @@ namespace teamcanada.dal
 
         public torontoDAL()
         {
-          if ((db.ElectionResults.ToList().Count() == 0) && (db.ElectionContributions.ToList().Count() == 0))
-            { 
+         if ((db.ElectionResults.ToList().Count() == 0) && (db.ElectionContributions.ToList().Count() == 0))
+
+           { 
                 insertcsv();
-            }
+           }
 
         }
      
@@ -28,7 +29,7 @@ namespace teamcanada.dal
 
             ResultsLoadCSV import = new ResultsLoadCSV();
 
-            results = import.loadResultsMayoral();
+            results = import.loadResults();
 
             foreach (Results r in results)
             {

@@ -142,17 +142,13 @@
     <Compile Include="ingestion\ResultsLoadCSV.cs" />
     <Compile Include="ingestion\AllDataParser.cs" />
     <Compile Include="ingestion\ResultsParse.cs" />
-    <Compile Include="Migrations\201207111718162_InitialCreate.cs" />
-    <Compile Include="Migrations\201207111718162_InitialCreate.Designer.cs">
-      <DependentUpon>201207111718162_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201207141031299_InitialCreate.cs" />
+    <Compile Include="Migrations\201207141031299_InitialCreate.Designer.cs">
+      <DependentUpon>201207141031299_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201207121105393_electionresults.cs" />
-    <Compile Include="Migrations\201207121105393_electionresults.Designer.cs">
-      <DependentUpon>201207121105393_electionresults.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201207131021373_update.cs" />
-    <Compile Include="Migrations\201207131021373_update.Designer.cs">
-      <DependentUpon>201207131021373_update.cs</DependentUpon>
+    <Compile Include="Migrations\201207141356476_dbload.cs" />
+    <Compile Include="Migrations\201207141356476_dbload.Designer.cs">
+      <DependentUpon>201207141356476_dbload.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -251,6 +247,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="dbload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
