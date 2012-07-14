@@ -22,3 +22,6 @@ http://msdn.microsoft.com/en-us/library/e0ybx34e
 
 ***generate PDFs
 http://www.codeproject.com/Articles/7089/Generate-PDF-documents-from-a-HTML-page-using-ASP
+
+***adding unit tests to controllers
+http://www.asp.net/mvc/tutorials/older-versions/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-vb
