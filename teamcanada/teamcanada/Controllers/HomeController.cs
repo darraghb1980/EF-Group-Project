@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -44,3 +44,22 @@ namespace teamcanada.Controllers
         }
     }
 }
+*/
+	using System;
+	using System.Web;
+	using teamcanada.Models;
+using System.Web.Mvc;
+	
+	namespace teamcanada.Controllers {
+	    [HandleError]
+	    public class HomeController : Controller {
+	        IContributionRepository _repository;
+	        public HomeController() : this(new EF_ContributionRepository()) { }
+	        public HomeController(IContributionRepository repository) {
+	            _repository = repository;
+	        }
+	        public ViewResult Index() {
+	            throw new NotImplementedException();
+	        }
+	    }
+	}

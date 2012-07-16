@@ -45,6 +45,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.Services.Client" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -153,6 +154,8 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Contributions.cs" />
+    <Compile Include="Models\EntityContributionManagerRepository.cs" />
+    <Compile Include="Models\IContributionRepository.cs" />
     <Compile Include="Models\Results.cs" />
     <Compile Include="Models\torontoDB.cs" />
     <Compile Include="Models\ui\ResultsUI.cs" />

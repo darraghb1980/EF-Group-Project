@@ -119,7 +119,9 @@
   <ItemGroup>
     <Compile Include="AllDataParserTest.cs" />
     <Compile Include="ContributionsTest.cs" />
+    <Compile Include="HomeControllerTest.cs" />
     <Compile Include="LoginModelTest.cs" />
+    <Compile Include="Models\MocContributionRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="torontoDbTest.cs" />
