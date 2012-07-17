@@ -13,7 +13,7 @@ namespace teamcanada.Controllers
     public class HomeController : Controller
     {
         // create reference to dal (methods you can run on the database)
-        public torontoDAL torontoDAL = new torontoDAL();
+        public csvParseDAL torontoDAL = new csvParseDAL();
 
         //create reference to database
         public torontoDB torontoDB = new torontoDB();
