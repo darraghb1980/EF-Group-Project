@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="23d6bcc1-e211-4f81-afd3-74281b8dbaf4" name="DB@DB-PC 2012-07-17 12:38:04" runUser="DB-PC\DB" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="83356a24-9262-4ae2-8a52-516489f59a98">
+    <Deployment runDeploymentRoot="DB_DB-PC 2012-07-17 12_38_04">
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\teamcanada.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\WebGrease.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-17T12:38:04.7414173+01:00" queuing="2012-07-17T12:38:05.3244507+01:00" start="2012-07-17T12:38:05.3964548+01:00" finish="2012-07-17T12:38:06.0044895+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="2" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="1c476c79-de79-c4b0-9feb-11589fb7c420">
+      <Execution id="1601bc7c-d091-4122-ab76-6246600baea3" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.UnitTest1, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="Create_Post_PutsValidContributionIntoRepository" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="1f4aa24c-7c64-0aa0-95ad-0905db410930">
+      <Execution id="b6dda8ce-0dfd-417b-8a50-40ddd9356d0e" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_Post_PutsValidContributionIntoRepository" />
+    </UnitTest>
+    <UnitTest name="Index_Get_AsksForIndexView" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="d589b3b2-74f9-3305-6ca0-aa06fc50ff85">
+      <Execution id="c676534c-cfb3-480a-9a3e-d86ed02e3611" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_AsksForIndexView" />
+    </UnitTest>
+    <UnitTest name="Create_Post_ReturnsViewIfModelStateIsNotValid" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="9137be04-7cb3-27e9-8d66-0371723d9065">
+      <Execution id="c15e575f-4543-41ef-911c-cd4a885e5c5a" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_Post_ReturnsViewIfModelStateIsNotValid" />
+    </UnitTest>
+    <UnitTest name="Index_Get_RetrievesAllContributionsFromRepository" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="78bca467-9567-542f-bc78-93a44624745f">
+      <Execution id="c6badaa2-3aef-48a6-8bb0-abd64b808a3d" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_RetrievesAllContributionsFromRepository" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1c476c79-de79-c4b0-9feb-11589fb7c420" executionId="1601bc7c-d091-4122-ab76-6246600baea3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f4aa24c-7c64-0aa0-95ad-0905db410930" executionId="b6dda8ce-0dfd-417b-8a50-40ddd9356d0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78bca467-9567-542f-bc78-93a44624745f" executionId="c6badaa2-3aef-48a6-8bb0-abd64b808a3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9137be04-7cb3-27e9-8d66-0371723d9065" executionId="c15e575f-4543-41ef-911c-cd4a885e5c5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d589b3b2-74f9-3305-6ca0-aa06fc50ff85" executionId="c676534c-cfb3-480a-9a3e-d86ed02e3611" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1601bc7c-d091-4122-ab76-6246600baea3" testId="1c476c79-de79-c4b0-9feb-11589fb7c420" testName="TestMethod1" computerName="DB-PC" duration="00:00:00.0217110" startTime="2012-07-17T12:38:05.4404573+01:00" endTime="2012-07-17T12:38:05.7884772+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1601bc7c-d091-4122-ab76-6246600baea3">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6dda8ce-0dfd-417b-8a50-40ddd9356d0e" testId="1f4aa24c-7c64-0aa0-95ad-0905db410930" testName="Create_Post_PutsValidContributionIntoRepository" computerName="DB-PC" duration="00:00:00.0478891" startTime="2012-07-17T12:38:05.7924774+01:00" endTime="2012-07-17T12:38:05.8434803+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6dda8ce-0dfd-417b-8a50-40ddd9356d0e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_PutsValidContributionIntoRepository threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at teamcanada.Controllers.HomeController.Create(Contributions model) in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\Controllers\HomeController.cs:line 71
+   at teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_PutsValidContributionIntoRepository() in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\Controllers\HomeControllerTest.cs:line 149
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6badaa2-3aef-48a6-8bb0-abd64b808a3d" testId="78bca467-9567-542f-bc78-93a44624745f" testName="Index_Get_RetrievesAllContributionsFromRepository" computerName="DB-PC" duration="00:00:00.0045214" startTime="2012-07-17T12:38:05.8494807+01:00" endTime="2012-07-17T12:38:05.8584812+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6badaa2-3aef-48a6-8bb0-abd64b808a3d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method teamcanada.Tests.Controllers.HomeControllerTest.Index_Get_RetrievesAllContributionsFromRepository threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at teamcanada.Tests.Controllers.HomeControllerTest.GetContributionNamed(String p, Int32 p_2, String p_3, String p_4, String p_5, String p_6, Int32 p_7, Int32 p_8, String p_9, String p_10, String p_11, String p_12) in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\Controllers\HomeControllerTest.cs:line 113
+   at teamcanada.Tests.Controllers.HomeControllerTest.Index_Get_RetrievesAllContributionsFromRepository() in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\Controllers\HomeControllerTest.cs:line 93
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c15e575f-4543-41ef-911c-cd4a885e5c5a" testId="9137be04-7cb3-27e9-8d66-0371723d9065" testName="Create_Post_ReturnsViewIfModelStateIsNotValid" computerName="DB-PC" duration="00:00:00.0106776" startTime="2012-07-17T12:38:05.8594813+01:00" endTime="2012-07-17T12:38:05.8754822+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c15e575f-4543-41ef-911c-cd4a885e5c5a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_ReturnsViewIfModelStateIsNotValid threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at teamcanada.Tests.Controllers.HomeControllerTest.GetContributionNamed(String p, String p_2) in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\Controllers\HomeControllerTest.cs:line 135
+   at teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_ReturnsViewIfModelStateIsNotValid() in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\Controllers\HomeControllerTest.cs:line 125
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c676534c-cfb3-480a-9a3e-d86ed02e3611" testId="d589b3b2-74f9-3305-6ca0-aa06fc50ff85" testName="Index_Get_AsksForIndexView" computerName="DB-PC" duration="00:00:00.0006924" startTime="2012-07-17T12:38:05.8834826+01:00" endTime="2012-07-17T12:38:05.8884829+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c676534c-cfb3-480a-9a3e-d86ed02e3611">
+    </UnitTestResult>
+  </Results>
+</TestRun>

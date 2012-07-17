@@ -58,8 +58,17 @@ using System.Web.Mvc;
 	        public HomeController(IContributionRepository repository) {
 	            _repository = repository;
 	        }
-	        public ViewResult Index() {
+	       /* public ViewResult Index() {
 	            throw new NotImplementedException();
+	        }*/
+	    	public ViewResult Index() {
+	            return View("Index", _repository.GetAllContributions());
 	        }
-	    }
+
+
+            public ViewResult Create(Contributions model)
+            {
+                throw new NotImplementedException();
+            }
+        }
 	}

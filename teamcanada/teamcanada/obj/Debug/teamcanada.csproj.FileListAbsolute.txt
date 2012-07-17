@@ -182,3 +182,4 @@ C:\College\EF\EF_Project\darraghb1980-EF-Group-Project-5996970\EF-Group-Project\
 C:\College\EF\EF_Project\darraghb1980-EF-Group-Project-5996970\EF-Group-Project\teamcanada\teamcanada\obj\Debug\ResolveAssemblyReference.cache
 C:\College\EF\EF_Project\darraghb1980-EF-Group-Project-5996970\EF-Group-Project\teamcanada\teamcanada\obj\Debug\teamcanada.dll
 C:\College\EF\EF_Project\darraghb1980-EF-Group-Project-5996970\EF-Group-Project\teamcanada\teamcanada\obj\Debug\teamcanada.pdb
+C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\LumenWorks.Framework.IO.xml
