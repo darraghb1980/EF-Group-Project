@@ -135,8 +135,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ContributionsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="dal\TorontoDAL.cs" />
+    <Compile Include="Controllers\ResultsController.cs" />
+    <Compile Include="dal\csvParseDAL.cs" />
+    <Compile Include="dal\viewDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -257,6 +260,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
+    <Content Include="Views\Contributions\Create.cshtml" />
+    <Content Include="Views\Contributions\Delete.cshtml" />
+    <Content Include="Views\Contributions\Details.cshtml" />
+    <Content Include="Views\Contributions\Edit.cshtml" />
+    <Content Include="Views\Contributions\Index.cshtml" />
+    <Content Include="Views\Results\Create.cshtml" />
+    <Content Include="Views\Results\Delete.cshtml" />
+    <Content Include="Views\Results\Details.cshtml" />
+    <Content Include="Views\Results\Edit.cshtml" />
+    <Content Include="Views\Results\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

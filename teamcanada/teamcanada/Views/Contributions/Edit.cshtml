@@ -1,0 +1,125 @@
+﻿@model teamcanada.Models.Contributions
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Contributions</legend>
+
+        @Html.HiddenFor(model => model.id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ElectionType)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ElectionType)
+            @Html.ValidationMessageFor(model => model.ElectionType)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ElectionYear)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ElectionYear)
+            @Html.ValidationMessageFor(model => model.ElectionYear)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ContributorLastName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ContributorLastName)
+            @Html.ValidationMessageFor(model => model.ContributorLastName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ContributorFirstName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ContributorFirstName)
+            @Html.ValidationMessageFor(model => model.ContributorFirstName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ContributorAddress)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ContributorAddress)
+            @Html.ValidationMessageFor(model => model.ContributorAddress)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ContributorPostCode)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ContributorPostCode)
+            @Html.ValidationMessageFor(model => model.ContributorPostCode)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.WardNum)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.WardNum)
+            @Html.ValidationMessageFor(model => model.WardNum)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Amount)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Amount)
+            @Html.ValidationMessageFor(model => model.Amount)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ContributionTypeDesc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ContributionTypeDesc)
+            @Html.ValidationMessageFor(model => model.ContributionTypeDesc)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ContributorTypeDesc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ContributorTypeDesc)
+            @Html.ValidationMessageFor(model => model.ContributorTypeDesc)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CandidateFirstName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CandidateFirstName)
+            @Html.ValidationMessageFor(model => model.CandidateFirstName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CandidateLastName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CandidateLastName)
+            @Html.ValidationMessageFor(model => model.CandidateLastName)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

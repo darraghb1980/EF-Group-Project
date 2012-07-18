@@ -1,19 +1,17 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using teamcanada.dal;
 using teamcanada.ingestion;
 using teamcanada.Models;
-using teamcanada.dal;
-using System.Data.Entity;
 
 namespace teamcanada.Controllers
 {
     public class HomeController : Controller
     {
-        // create reference to dal (methods you can run on the database)
-        public csvParseDAL torontoDAL = new csvParseDAL();
 
         //create reference to database
         public torontoDB torontoDB = new torontoDB();
@@ -22,29 +20,27 @@ namespace teamcanada.Controllers
         {
            ViewBag.Message = "Welcome to Team Canada!.";
 
-          // return View(torontoDB.ElectionResults.ToList());
-
            return View();
         }
             
-        public ActionResult About()
+        public ActionResult ViewResults()
         {
-            ViewBag.Message = "Your app description page.";
-
-
+            ViewBag.Message = "View a list of all Election Results.";
 
           return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult ViewContributions()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "View a list of all Election Contributions.";
 
             return View();
         }
+
     }
 }
-*/
+
+/*
 	using System;
 	using System.Web;
 	using teamcanada.Models;
@@ -58,9 +54,9 @@ using System.Web.Mvc;
 	        public HomeController(IContributionRepository repository) {
 	            _repository = repository;
 	        }
-	       /* public ViewResult Index() {
+	       public ViewResult Index() {
 	            throw new NotImplementedException();
-	        }*/
+	        }
 	    	public ViewResult Index() {
 	            return View("Index", _repository.GetAllContributions());
 	        }
@@ -72,3 +68,5 @@ using System.Web.Mvc;
             }
         }
 	}
+
+*/
