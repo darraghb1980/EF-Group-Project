@@ -146,6 +146,8 @@
     <Compile Include="ingestion\ResultsLoadCSV.cs" />
     <Compile Include="ingestion\AllDataParser.cs" />
     <Compile Include="ingestion\ResultsParse.cs" />
+    <Compile Include="Logic\CalculateTotalContributions.cs" />
+    <Compile Include="Logic\CalculateTotalVotes.cs" />
     <Compile Include="Migrations\201207141031299_InitialCreate.cs" />
     <Compile Include="Migrations\201207141031299_InitialCreate.Designer.cs">
       <DependentUpon>201207141031299_InitialCreate.cs</DependentUpon>
