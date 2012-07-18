@@ -14,7 +14,7 @@ namespace teamcanada.dal
     {
         protected torontoDB db = new torontoDB();
 
-        /* if the database is empty, then do not do the CSV parse */
+        /* if the database is empty, then do not continue with the CSV parsing */
 
         public csvParseDAL()
         {
@@ -26,7 +26,7 @@ namespace teamcanada.dal
 
         }
      
-       /* CSV parse  */
+       /* Start CSV parsing  */
 
         public void insertcsv()
         {

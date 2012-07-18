@@ -8,6 +8,7 @@ using teamcanada.dal;
 using teamcanada.ingestion;
 using teamcanada.Models;
 
+
 namespace teamcanada.Controllers
 {
     public class HomeController : Controller
@@ -33,6 +34,13 @@ namespace teamcanada.Controllers
         public ActionResult ViewContributions()
         {
             ViewBag.Message = "View a list of all Election Contributions.";
+
+            return View();
+        }
+
+        public ActionResult ViewSavedReports()
+        {
+            ViewBag.Message = "View any saved reports.";
 
             return View();
         }
