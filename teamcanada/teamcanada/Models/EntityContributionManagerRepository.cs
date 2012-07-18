@@ -6,6 +6,7 @@ namespace teamcanada.Models
     public class EF_ContributionRepository : teamcanada.Models.IContributionRepository
     {
 
+        //private ContributionEntities _db = new ContributionEntities();
         private torontoDB db = new torontoDB();
 
         public Contributions GetContributionByID(int id)
