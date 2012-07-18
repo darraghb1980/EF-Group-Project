@@ -1,14 +1,15 @@
-﻿	using System.Web;
-	using Microsoft.VisualStudio.TestTools.UnitTesting;
-	using teamcanada.Controllers;
-    using teamcanada.Models;
-    using teamcanada.Tests.Models;
+﻿using System;
+using System.Text.RegularExpressions;
+using System.Web;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using teamcanada.Controllers;
+using teamcanada.Models;
+using teamcanada.Tests.Models;
 using System.Data.Entity;
 using System.Data;
 using System.Linq;
-
-	using System.Web.Routing;
-	using System.Security.Principal;
+using System.Web.Routing;
+using System.Security.Principal;
 using System.Web.Mvc;
 using System.Collections.Generic;
 
@@ -122,6 +123,9 @@ namespace teamcanada.Tests.Controllers
                 // Simply executing a method during a unit test does just that - executes a method, and no more. 
                 // The MVC pipeline doesn't run, so binding and validation don't run.
                 controller.ModelState.AddModelError("", "mock error message");
+                
+                //******************this part isn't working
+                //******************something to do with the arguments.were initially empty
                 Contributions model = GetContributionNamed("Council", " ");
                 // Act
                 var result = (ViewResult)controller.Create(model);
@@ -152,6 +156,31 @@ namespace teamcanada.Tests.Controllers
                 IEnumerable<Contributions> Contributions = repository.GetAllContributions();
                 Assert.IsTrue(Contributions.Contains(Contribution));
             } 
+
+
+            //page 9
+            [TestMethod]
+            public void Create_Post_ReturnsViewIfRepositoryThrowsException()
+            {
+                // Arrange
+                InMemoryContributionRepository repository = new InMemoryContributionRepository();
+                Exception exception = new Exception();
+                repository.ExceptionToThrow = exception;
+                HomeController controller = GetHomeController(repository);
+                //next line, i've removed "ID_1" from end of GetContribution
+                Contributions model = GetContribution();
+
+                // Act
+                var result = (ViewResult)controller.Create(model);
+
+                // Assert
+                Assert.AreEqual("Create", result.ViewName);
+                ModelState modelState = result.ViewData.ModelState[""];
+                Assert.IsNotNull(modelState);
+                Assert.IsTrue(modelState.Errors.Any());
+                Assert.AreEqual(exception, modelState.Errors[0].Exception);
+            } 
+
 
 	    }
 
