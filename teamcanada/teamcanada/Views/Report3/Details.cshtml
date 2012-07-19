@@ -1,0 +1,36 @@
+﻿@model teamcanada.Models.ui.Report3UI
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Report3UI</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ElectionType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ElectionType)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ElectionYear)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ElectionYear)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Wardnum)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Wardnum)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,53 @@
+﻿@model teamcanada.Models.ui.Report4UI
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Report4UI</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ElectionType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ElectionType)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ElectionYear)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ElectionYear)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CandidateFirstName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CandidateFirstName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CandidateLastName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CandidateLastName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Wardnum)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Wardnum)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

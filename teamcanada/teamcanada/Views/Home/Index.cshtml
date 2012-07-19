@@ -1,7 +1,5 @@
-﻿@model teamcanada.Models.ui.ResultsUI
-
-@{
-    ViewBag.Title = "Home Page";
+﻿@{
+    ViewBag.Title = "Toronto Electoral Reports";
 }
 
 
@@ -11,39 +9,28 @@
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1>@ViewBag.Title.</h1>
-                <h2>@ViewBag.Message</h2>
             </hgroup>
         </div>
     </section>
 }    
 
-<p>Please select from the following filters to build your report:</p>
+<h2> Welcome to the Toronto Electoral Database.</h2>
+<p>Please select from one of the following reports, or to view all data, use the links along to top menu:</p>
 
+<h3>2006</h3>
+ <ul>
+                            <li>@Html.ActionLink("Report 1", "Index", "Report1")</li>
+                            <li>@Html.ActionLink("Report 2", "Index", "Report2")</li>
+                            <li>@Html.ActionLink("Report 3", "Index", "Report3")</li>
+                            <li>@Html.ActionLink("Report 4", "Index", "Report4")</li>
+                            <li>@Html.ActionLink("Report 5", "Index", "Report5")</li>
+</ul>
 
-<form action="" method="post">
-
-<label for = "ElectionYear">Year of Election: </label>
-<select name="Year">
-<option value="2006">2006</option>
-<option value="2010">2010</option>
-</select>
-<br />
-<label for = "ElectionType">Type of Election:</label>
-<select name="ElectionType">
-<option value="mayoral">Mayoral</option>
-<option value="council">Council</option>
-</select>
-<br /><br />
-
-Select one or more of these filters:<br />
-<br />
-
-<label for = "Filter">Filter Report By:</label>
-<select name="parameters">
-<option value="WardNum">Ward Number</option>
-<option value="ContributionType">Contribution Type</option>
-<option value="CandidateLastName">Candidate Name</option>
-</select>
-
-<p><input type="submit" value=" Build Report " /></p>
-
+<h3>2010</h3>
+ <ul>
+                            <li>@Html.ActionLink("Report 1", "Index", "Report1")</li>
+                            <li>@Html.ActionLink("Report 2", "Index", "Report2")</li>
+                            <li>@Html.ActionLink("Report 3", "Index", "Report3")</li>
+                            <li>@Html.ActionLink("Report 4", "Index", "Report4")</li>
+                            <li>@Html.ActionLink("Report 5", "Index", "Report5")</li>
+</ul>
