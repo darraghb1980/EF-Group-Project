@@ -1,0 +1,18 @@
+19/7/12
+
+*edited homecontroller to incl. DH code into one controller with existing 
+code.*undone
+
+*commented out CalculateTotalVotes to enable project compile
+
+*commented out CalculateTotalContributions to enable project compile
+
+*commented out lines 20-25 of homecontroller to remove error. need to
+uncomment.*undone.
+
+*created homecontroller2 and homecontrller2test and changed refs to 
+homecontroller
+
+*commented out lines 22-25 in homecontroller2
+
+*need to create definition for GetContributionNamed
