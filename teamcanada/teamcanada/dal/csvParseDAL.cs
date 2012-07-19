@@ -30,8 +30,7 @@ namespace teamcanada.dal
 
         public void insertcsv()
         {
-           List<Results> results = null;
-
+            List<Results> results = null;
             List<Contributions> contributions = null;
 
             ResultsLoadCSV import = new ResultsLoadCSV();
@@ -44,8 +43,6 @@ namespace teamcanada.dal
                 db.ElectionResults.Add(r);
             }
 
- 
-          
             contributions = import.loadContributions();
 
             foreach (Contributions r in contributions)

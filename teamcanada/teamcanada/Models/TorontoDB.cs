@@ -15,6 +15,8 @@ namespace teamcanada.Models
 
         public DbSet<Contributions> ElectionContributions { get; set; }
 
+        public DbSet<ResultsUI> ResultsUIs { get; set; }
+
         // public DbSet<ResultsUI> ResultsUIs { get; set; }
 
     }
