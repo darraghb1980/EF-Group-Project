@@ -143,6 +143,8 @@
     <Compile Include="Controllers\Report4Controller.cs" />
     <Compile Include="Controllers\Report5Controller.cs" />
     <Compile Include="Controllers\ResultsController.cs" />
+    <Compile Include="dal\resultsDAL.cs" />
+    <Compile Include="dal\contributionsDAL.cs" />
     <Compile Include="dal\csvParseDAL.cs" />
     <Compile Include="dal\viewDAL.cs" />
     <Compile Include="Global.asax.cs">
@@ -151,8 +153,7 @@
     <Compile Include="ingestion\ResultsLoadCSV.cs" />
     <Compile Include="ingestion\AllDataParser.cs" />
     <Compile Include="ingestion\ResultsParse.cs" />
-    <Compile Include="logic\CalculateTotalContributions.cs" />
-    <Compile Include="logic\CalculateTotalVotes.cs" />
+    <Compile Include="logic\Calculations.cs" />
     <Compile Include="Migrations\201207141031299_InitialCreate.cs" />
     <Compile Include="Migrations\201207141031299_InitialCreate.Designer.cs">
       <DependentUpon>201207141031299_InitialCreate.cs</DependentUpon>
