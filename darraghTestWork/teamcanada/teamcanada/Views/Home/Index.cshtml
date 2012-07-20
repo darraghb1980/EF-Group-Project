@@ -1,0 +1,49 @@
+﻿@model teamcanada.Models.ui.ResultsUI
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+        </div>
+    </section>
+}    
+
+<p>Please select from the following filters to build your report:</p>
+
+
+<form action="" method="post">
+
+<label for = "ElectionYear">Year of Election: </label>
+<select name="Year">
+<option value="2006">2006</option>
+<option value="2010">2010</option>
+</select>
+<br />
+<label for = "ElectionType">Type of Election:</label>
+<select name="ElectionType">
+<option value="mayoral">Mayoral</option>
+<option value="council">Council</option>
+</select>
+<br /><br />
+
+Select one or more of these filters:<br />
+<br />
+
+<label for = "Filter">Filter Report By:</label>
+<select name="parameters">
+<option value="WardNum">Ward Number</option>
+<option value="ContributionType">Contribution Type</option>
+<option value="CandidateLastName">Candidate Name</option>
+</select>
+
+<p><input type="submit" value=" Build Report " /></p>
+

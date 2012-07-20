@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9dd8fa62-daa3-474d-b6eb-af0a94d0b577" name="DB@DB-PC 2012-07-19 10:29:44" runUser="DB-PC\DB" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="939cb5df-4db5-4eea-a403-cff0c18dfc5e">
+    <Deployment runDeploymentRoot="DB_DB-PC 2012-07-19 10_29_44">
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\teamcanada.Tests\bin\Debug\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\teamcanada\bin\teamcanada.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-19T10:29:44.5202145+01:00" queuing="2012-07-19T10:29:47.5753892+01:00" start="2012-07-19T10:29:47.7133971+01:00" finish="2012-07-19T10:29:48.4934418+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="1" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DB-PC" outcome="Warning" timestamp="2012-07-19T10:29:47.2983734+01:00">
+        <Text>Warning: conflict during test run deployment: deployment item 'c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.dll' directly or indirectly referenced by the test container 'c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll' cannot be deployed to 'teamcanada.dll' because otherwise the file 'c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.dll' would overwrite deployment item 'C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\teamcanada\bin\teamcanada.dll' directly or indirectly referenced by C:\Users\DB\Documents\Visual Studio 2010\Projects\teamcanada\teamcanada.Tests\bin\Debug\teamcanada.Tests.dll.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index_Get_RetrievesAllContributionsFromRepository" storage="c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="78bca467-9567-542f-bc78-93a44624745f">
+      <Execution id="0377a600-94ad-4ae6-acbd-8734a21f85c6" />
+      <TestMethod codeBase="C:/Users/DB/Documents/Visual Studio 2010/Projects/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_RetrievesAllContributionsFromRepository" />
+    </UnitTest>
+    <UnitTest name="Index_Get_AsksForIndexView" storage="c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="d589b3b2-74f9-3305-6ca0-aa06fc50ff85">
+      <Execution id="beed1d24-2468-42d0-80f5-85d452dff7dc" />
+      <TestMethod codeBase="C:/Users/DB/Documents/Visual Studio 2010/Projects/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_AsksForIndexView" />
+    </UnitTest>
+    <UnitTest name="Create_Post_ReturnsViewIfRepositoryThrowsException" storage="c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="e20ab33e-9d42-ac03-8c8f-be0f94b4d5a9">
+      <Execution id="d2f4a82c-b9de-4323-b7f6-60563b6963d8" />
+      <TestMethod codeBase="C:/Users/DB/Documents/Visual Studio 2010/Projects/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_Post_ReturnsViewIfRepositoryThrowsException" />
+    </UnitTest>
+    <UnitTest name="Create_Post_PutsValidContributionIntoRepository" storage="c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="1f4aa24c-7c64-0aa0-95ad-0905db410930">
+      <Execution id="09180b23-1d4a-43fe-b8f8-45b9b38210b1" />
+      <TestMethod codeBase="C:/Users/DB/Documents/Visual Studio 2010/Projects/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_Post_PutsValidContributionIntoRepository" />
+    </UnitTest>
+    <UnitTest name="Create_Post_ReturnsViewIfModelStateIsNotValid" storage="c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="9137be04-7cb3-27e9-8d66-0371723d9065">
+      <Execution id="8529129e-f68a-43f5-b6d2-dd0b3ff75507" />
+      <TestMethod codeBase="C:/Users/DB/Documents/Visual Studio 2010/Projects/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeControllerTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_Post_ReturnsViewIfModelStateIsNotValid" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\db\documents\visual studio 2010\projects\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="1c476c79-de79-c4b0-9feb-11589fb7c420">
+      <Execution id="8849d250-f984-4106-9f5f-810533703133" />
+      <TestMethod codeBase="C:/Users/DB/Documents/Visual Studio 2010/Projects/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.UnitTest1, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1c476c79-de79-c4b0-9feb-11589fb7c420" executionId="8849d250-f984-4106-9f5f-810533703133" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f4aa24c-7c64-0aa0-95ad-0905db410930" executionId="09180b23-1d4a-43fe-b8f8-45b9b38210b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78bca467-9567-542f-bc78-93a44624745f" executionId="0377a600-94ad-4ae6-acbd-8734a21f85c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9137be04-7cb3-27e9-8d66-0371723d9065" executionId="8529129e-f68a-43f5-b6d2-dd0b3ff75507" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d589b3b2-74f9-3305-6ca0-aa06fc50ff85" executionId="beed1d24-2468-42d0-80f5-85d452dff7dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e20ab33e-9d42-ac03-8c8f-be0f94b4d5a9" executionId="d2f4a82c-b9de-4323-b7f6-60563b6963d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8849d250-f984-4106-9f5f-810533703133" testId="1c476c79-de79-c4b0-9feb-11589fb7c420" testName="TestMethod1" computerName="DB-PC" duration="00:00:00.0166340" startTime="2012-07-19T10:29:47.7654001+01:00" endTime="2012-07-19T10:29:48.0694175+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8849d250-f984-4106-9f5f-810533703133">
+    </UnitTestResult>
+    <UnitTestResult executionId="09180b23-1d4a-43fe-b8f8-45b9b38210b1" testId="1f4aa24c-7c64-0aa0-95ad-0905db410930" testName="Create_Post_PutsValidContributionIntoRepository" computerName="DB-PC" duration="00:00:00.0419844" startTime="2012-07-19T10:29:48.0854184+01:00" endTime="2012-07-19T10:29:48.1624228+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09180b23-1d4a-43fe-b8f8-45b9b38210b1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_PutsValidContributionIntoRepository threw exception: 
+System.MissingMethodException: Method not found: 'System.Web.Mvc.ViewResult teamcanada.Controllers.HomeController.Create(teamcanada.Models.Contributions)'.</Message>
+          <StackTrace>    at teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_PutsValidContributionIntoRepository()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0377a600-94ad-4ae6-acbd-8734a21f85c6" testId="78bca467-9567-542f-bc78-93a44624745f" testName="Index_Get_RetrievesAllContributionsFromRepository" computerName="DB-PC" duration="00:00:00.0029656" startTime="2012-07-19T10:29:48.1794238+01:00" endTime="2012-07-19T10:29:48.1944247+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0377a600-94ad-4ae6-acbd-8734a21f85c6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method teamcanada.Tests.Controllers.HomeControllerTest.Index_Get_RetrievesAllContributionsFromRepository threw exception: 
+System.MissingMethodException: Method not found: 'System.Web.Mvc.ViewResult teamcanada.Controllers.HomeController.Index()'.</Message>
+          <StackTrace>    at teamcanada.Tests.Controllers.HomeControllerTest.Index_Get_RetrievesAllContributionsFromRepository()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8529129e-f68a-43f5-b6d2-dd0b3ff75507" testId="9137be04-7cb3-27e9-8d66-0371723d9065" testName="Create_Post_ReturnsViewIfModelStateIsNotValid" computerName="DB-PC" duration="00:00:00.0066576" startTime="2012-07-19T10:29:48.1984249+01:00" endTime="2012-07-19T10:29:48.2164259+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8529129e-f68a-43f5-b6d2-dd0b3ff75507">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_ReturnsViewIfModelStateIsNotValid threw exception: 
+System.MissingMethodException: Method not found: 'System.Web.Mvc.ViewResult teamcanada.Controllers.HomeController.Create(teamcanada.Models.Contributions)'.</Message>
+          <StackTrace>    at teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_ReturnsViewIfModelStateIsNotValid()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="beed1d24-2468-42d0-80f5-85d452dff7dc" testId="d589b3b2-74f9-3305-6ca0-aa06fc50ff85" testName="Index_Get_AsksForIndexView" computerName="DB-PC" duration="00:00:00.0068608" startTime="2012-07-19T10:29:48.2224263+01:00" endTime="2012-07-19T10:29:48.2414273+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="beed1d24-2468-42d0-80f5-85d452dff7dc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method teamcanada.Tests.Controllers.HomeControllerTest.Index_Get_AsksForIndexView threw exception: 
+System.MissingMethodException: Method not found: 'System.Web.Mvc.ViewResult teamcanada.Controllers.HomeController.Index()'.</Message>
+          <StackTrace>    at teamcanada.Tests.Controllers.HomeControllerTest.Index_Get_AsksForIndexView()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2f4a82c-b9de-4323-b7f6-60563b6963d8" testId="e20ab33e-9d42-ac03-8c8f-be0f94b4d5a9" testName="Create_Post_ReturnsViewIfRepositoryThrowsException" computerName="DB-PC" duration="00:00:00.0031186" startTime="2012-07-19T10:29:48.2474277+01:00" endTime="2012-07-19T10:29:48.2714291+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2f4a82c-b9de-4323-b7f6-60563b6963d8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_ReturnsViewIfRepositoryThrowsException threw exception: 
+System.MissingMethodException: Method not found: 'System.Web.Mvc.ViewResult teamcanada.Controllers.HomeController.Create(teamcanada.Models.Contributions)'.</Message>
+          <StackTrace>    at teamcanada.Tests.Controllers.HomeControllerTest.Create_Post_ReturnsViewIfRepositoryThrowsException()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

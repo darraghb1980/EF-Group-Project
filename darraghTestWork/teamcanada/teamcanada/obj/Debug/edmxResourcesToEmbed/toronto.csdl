@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="toronto" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="torontoContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Wards" EntityType="toronto.Ward" />
+    <EntitySet Name="Candidates" EntityType="toronto.Candidate" />
+    <EntitySet Name="Contributions" EntityType="toronto.Contribution" />
+    <EntitySet Name="Elections" EntityType="toronto.Election" />
+    <EntitySet Name="Contributors" EntityType="toronto.Contributor" />
+    <AssociationSet Name="WardCandidate" Association="toronto.WardCandidate">
+      <End Role="Ward" EntitySet="Wards" />
+      <End Role="Candidate" EntitySet="Candidates" />
+    </AssociationSet>
+    <AssociationSet Name="CandidateContribution" Association="toronto.CandidateContribution">
+      <End Role="Candidate" EntitySet="Candidates" />
+      <End Role="Contribution" EntitySet="Contributions" />
+    </AssociationSet>
+    <AssociationSet Name="ContributorContribution" Association="toronto.ContributorContribution">
+      <End Role="Contributor" EntitySet="Contributors" />
+      <End Role="Contribution" EntitySet="Contributions" />
+    </AssociationSet>
+    <AssociationSet Name="CandidateElection" Association="toronto.CandidateElection">
+      <End Role="Candidate" EntitySet="Candidates" />
+      <End Role="Election" EntitySet="Elections" />
+    </AssociationSet>
+    <AssociationSet Name="ElectionContributor" Association="toronto.ElectionContributor">
+      <End Role="Election" EntitySet="Elections" />
+      <End Role="Contributor" EntitySet="Contributors" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Ward">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="wardNum" Nullable="false" />
+    <Property Type="Int32" Name="numCandidates" Nullable="false" />
+    <Property Type="String" Name="wardName" Nullable="false" />
+    <Property Type="Int32" Name="numWardVotes" Nullable="false" />
+    <Property Type="Decimal" Name="totalWardContributions" Nullable="false" />
+    <NavigationProperty Name="Candidates" Relationship="toronto.WardCandidate" FromRole="Ward" ToRole="Candidate" />
+  </EntityType>
+  <EntityType Name="Candidate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="firstName" Nullable="false" />
+    <Property Type="String" Name="lastName" Nullable="false" />
+    <Property Type="Int32" Name="numVotes" Nullable="false" />
+    <Property Type="Decimal" Name="totalContributions" Nullable="false" />
+    <NavigationProperty Name="Wards" Relationship="toronto.WardCandidate" FromRole="Candidate" ToRole="Ward" />
+    <NavigationProperty Name="Contributions" Relationship="toronto.CandidateContribution" FromRole="Candidate" ToRole="Contribution" />
+    <NavigationProperty Name="Elections" Relationship="toronto.CandidateElection" FromRole="Candidate" ToRole="Election" />
+  </EntityType>
+  <EntityType Name="Contribution">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Decimal" Name="amount" Nullable="false" />
+    <Property Type="String" Name="contributionType" Nullable="false" />
+    <Property Type="String" Name="contributorType" Nullable="false" />
+    <NavigationProperty Name="Candidate" Relationship="toronto.CandidateContribution" FromRole="Contribution" ToRole="Candidate" />
+    <Property Type="Int32" Name="CandidateId" Nullable="false" />
+    <NavigationProperty Name="Contributor" Relationship="toronto.ContributorContribution" FromRole="Contribution" ToRole="Contributor" />
+    <Property Type="Int32" Name="ContributorId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Election">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="electionType" Nullable="false" />
+    <Property Type="DateTime" Name="year" Nullable="false" />
+    <Property Type="Int32" Name="totalNumVotes" Nullable="false" />
+    <Property Type="Int32" Name="totalNumCandidates" Nullable="false" />
+    <NavigationProperty Name="Candidates" Relationship="toronto.CandidateElection" FromRole="Election" ToRole="Candidate" />
+    <NavigationProperty Name="Contributors" Relationship="toronto.ElectionContributor" FromRole="Election" ToRole="Contributor" />
+  </EntityType>
+  <EntityType Name="Contributor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="firstName" Nullable="false" />
+    <Property Type="String" Name="lastName" Nullable="false" />
+    <Property Type="Int32" Name="postCode" Nullable="false" />
+    <Property Type="String" Name="relationship" Nullable="false" />
+    <NavigationProperty Name="Contributions" Relationship="toronto.ContributorContribution" FromRole="Contributor" ToRole="Contribution" />
+    <NavigationProperty Name="Elections" Relationship="toronto.ElectionContributor" FromRole="Contributor" ToRole="Election" />
+  </EntityType>
+  <Association Name="WardCandidate">
+    <End Type="toronto.Ward" Role="Ward" Multiplicity="*" />
+    <End Type="toronto.Candidate" Role="Candidate" Multiplicity="*" />
+  </Association>
+  <Association Name="CandidateContribution">
+    <End Type="toronto.Candidate" Role="Candidate" Multiplicity="1" />
+    <End Type="toronto.Contribution" Role="Contribution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Candidate">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Contribution">
+        <PropertyRef Name="CandidateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ContributorContribution">
+    <End Type="toronto.Contributor" Role="Contributor" Multiplicity="1" />
+    <End Type="toronto.Contribution" Role="Contribution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contributor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Contribution">
+        <PropertyRef Name="ContributorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CandidateElection">
+    <End Type="toronto.Candidate" Role="Candidate" Multiplicity="*" />
+    <End Type="toronto.Election" Role="Election" Multiplicity="*" />
+  </Association>
+  <Association Name="ElectionContributor">
+    <End Type="toronto.Election" Role="Election" Multiplicity="*" />
+    <End Type="toronto.Contributor" Role="Contributor" Multiplicity="*" />
+  </Association>
+</Schema>
