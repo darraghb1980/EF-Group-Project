@@ -11,15 +11,49 @@ namespace teamcanada.dal
     {
         protected torontoDB db = new torontoDB();
 
-        public contributionsDAL GetAmount(float amounts)
+        // Version 1
+
+        /*
+        public contributionsDAL GetAmount()
         {
             // code to get amount from database goes here
 
-            // attempted code
-            var amounts = db.ElectionContributions.ToList(Amount);
+            //List<Contributions> = null;
+
+            var amounts = from t in db.ElectionContributions
+                      where t.Amount > 500
+                      select t;
+            
             return amounts;
         }
+        */
 
+        // Version 2
+
+        public contributionsDAL GetAmounts()
+        {
+            List<Contributions> contributions = null;
+
+            contributions = from t in db.ElectionContributions
+                            select t.Amount;
+            return contributions;
+        }
+
+        // Version 3 - This would involve adding a stub to the model. Do we want to do it this...?
+
+        public contributionsDAL GetAmounts()
+        {
+            selectAmounts = db.ElectionContributions.retrieveAmounts();
+
+            foreach (Contributions selectAmount in selectAmounts)
+            {
+                selectAmount.Amount();
+
+            }
+
+            return selectAmounts;
+
+        }
 
     }
 }

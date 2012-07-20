@@ -10,11 +10,11 @@ namespace teamcanada.dal
     {
         protected torontoDB db = new torontoDB();
 
-        public resultsDAL GetVotes(int numVotes)
+        /*public resultsDAL GetVotes(int numVotes)
         {
             // code to get number of votes from database goes here
 
-        }
+        }*/
 
     }
 }
