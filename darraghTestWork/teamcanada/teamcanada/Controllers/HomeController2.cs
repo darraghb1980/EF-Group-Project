@@ -31,7 +31,7 @@ namespace teamcanada.Controllers
 
         public ViewResult Create(Contributions model)
         {
-            throw new NotImplementedException();
+            return View("Index", _repository.GetAllContributions());
         }
     }
 	

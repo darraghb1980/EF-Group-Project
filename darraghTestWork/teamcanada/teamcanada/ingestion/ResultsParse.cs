@@ -146,7 +146,7 @@ namespace teamcanada.ingestion
         }
 
 
-        void AllDataParser.setStreamSource(StreamReader reader)
+        void AllDataParser.setStreamSource(System.IO.StreamReader reader)
         {
             this.reader = reader;
         }

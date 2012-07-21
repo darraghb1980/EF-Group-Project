@@ -14,6 +14,7 @@ using System.Web.Mvc;
 using System.Collections.Generic;
 
 
+
 namespace teamcanada.Tests.Controllers
 {
 	    [TestClass]
@@ -35,27 +36,30 @@ namespace teamcanada.Tests.Controllers
             }
 
             //tmp remove. needs sorting. council variable problem
-            /*Contributions GetContributionID_Council()
+            Contributions GetContributionID(string council,int year)
             {
-                return GetContributionNamed(Council, 2006);
-            }*/
+                return GetContributionNamed(council,2006);
+            }
 
-            Contributions GetContributionNamed(string id, int year)
+            Contributions GetContributionNamed(string type, int year)
             {
                 return new Contributions
                 {
-                    ElectionType = id,
+                    ElectionType = type,
                     ElectionYear = year,
                 };
             }
 
             //remove for now but incorporate after
             /*
-            Contributions GetContributionIllegal()
+            Contributions GetContributionIllegal(int number, string twentytwelve)
             {
-                return new Permission
+                return new Contributions
                 {
-                    Id = 99,
+                   ElectionType = 666,
+                   ElectionYear = "twentytwelve",
+                    
+                    /*Id = 99,
                     permType = 10,
                     postalAddr = "illegal architect name",
                     appName = "Murphy",
@@ -120,6 +124,7 @@ namespace teamcanada.Tests.Controllers
 	                }
 	            }
 	        }
+            
             //page 7 of DH
             [TestMethod]
             public void Index_Get_AsksForIndexView()
@@ -137,9 +142,11 @@ namespace teamcanada.Tests.Controllers
             [TestMethod]
             public void Index_Get_RetrievesAllContributionsFromRepository()
             {
+                
                 // Arrange
                 Contributions Contribution1 = GetContributionNamed("Council", 2003);
                 Contributions Contribution2 = GetContributionNamed("Council", 2004);
+                Contributions Contribution3 = GetContributionNamed("Council", 2009);
                 InMemoryContributionRepository repository = new InMemoryContributionRepository();
                 repository.Add(Contribution1);
                 repository.Add(Contribution2);
@@ -152,14 +159,16 @@ namespace teamcanada.Tests.Controllers
                 var model = (IEnumerable<Contributions>)result.ViewData.Model;
                 CollectionAssert.Contains(model.ToList(), Contribution1);
                 CollectionAssert.Contains(model.ToList(), Contribution2);
+                //check if contribution 3 has been added, which it hasn't.
+                //CollectionAssert.Contains(model.ToList(), Contribution3);
+                //check if contribution 1 has two values
+               
+                
             }
 
-            /*private Contributions GetContributionNamed(string p, int p_2)
-            {
-                throw new System.NotImplementedException();
-            }*/
             
-            /*
+            
+            
             //To add a test for creating a Contribution
             [TestMethod]
             public void Create_Post_ReturnsViewIfModelStateIsNotValid()
@@ -172,8 +181,7 @@ namespace teamcanada.Tests.Controllers
                 
                 //******************this part isn't working
                 //******************something to do with the arguments.were initially empty
-                Contributions model = GetContributionNamed("", "","","","","",
-                    "","","","","","");
+                Contributions model = GetContributionNamed("Council",2003);
                 // Act
                 var result = (ViewResult)controller.Create(model);
 
@@ -181,27 +189,24 @@ namespace teamcanada.Tests.Controllers
                 Assert.AreEqual("Create", result.ViewName);
             }
 
-            private Contributions GetContributionNamed(string p, string p_2, string p_3, string p_4, string p_5, string p_6, string p_7, string p_8, string p_9, string p_10, string p_11, string p_12)
-            {
-                throw new NotImplementedException();
-            }
+           
 
            
 
             
 
             
-
-            /*removed as not required
+/*
+            //removed as not required
             //page 9
             [TestMethod]
             public void Create_Post_PutsValidContributionIntoRepository()
             {
                 // Arrange
                 InMemoryContributionRepository repository = new InMemoryContributionRepository();
-                HomeController controller = GetHomeController(repository);
+                HomeController2 controller = GetHomeController(repository);
                 //Contributions Contribution = GetContributionID_1();
-                Contributions Contribution = GetContribution();
+                Contributions Contribution = GetContributionID();
 
                 // Act
                 controller.Create(Contribution);
@@ -220,7 +225,7 @@ namespace teamcanada.Tests.Controllers
                 InMemoryContributionRepository repository = new InMemoryContributionRepository();
                 Exception exception = new Exception();
                 repository.ExceptionToThrow = exception;
-                HomeController controller = GetHomeController(repository);
+                HomeController2 controller = GetHomeController(repository);
                 //next line, i've removed "ID_1" from end of GetContribution
                 Contributions model = GetContribution();
 
