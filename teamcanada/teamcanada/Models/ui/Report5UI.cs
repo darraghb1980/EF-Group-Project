@@ -12,7 +12,7 @@ namespace teamcanada.Models.ui
         public int ElectionYear { get; set; }
         public String CandidateFirstName { get; set; }
         public String CandidateLastName { get; set; }
-        public String ContributionType { get; set; }
+        public String ContributionTypeDesc { get; set; }
 
         //public int TotalContributionType { get; set; }   
 

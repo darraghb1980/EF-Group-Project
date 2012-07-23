@@ -9,49 +9,26 @@ namespace teamcanada.dal
 {
     public class contributionsDAL
     {
-        protected torontoDB db = new torontoDB();
+        //protected torontoDB db = new torontoDB();
 
-        // Version 1
-
-        /*
-        public contributionsDAL GetAmount()
+        public static IEnumerable<Report5UI> GetReportData()                                 // Method to select Report 5 data from the database
         {
-            // code to get amount from database goes here
-
-            //List<Contributions> = null;
-
-            var amounts = from t in db.ElectionContributions
-                      where t.Amount > 500
-                      select t;
-            
-            return amounts;
-        }
-        */
-
-        // Version 2
-
-        public contributionsDAL GetAmounts()
-        {
-            List<Contributions> contributions = null;
-
-            contributions = from t in db.ElectionContributions
-                            select t.Amount;
-            return contributions;
-        }
-
-        // Version 3 - This would involve adding a stub to the model. Do we want to do it this...?
-
-        public contributionsDAL GetAmounts()
-        {
-            selectAmounts = db.ElectionContributions.retrieveAmounts();
-
-            foreach (Contributions selectAmount in selectAmounts)
+            using (torontoDB db = new torontoDB())
             {
-                selectAmount.Amount();
+
+                var report5Data = from c in db.ElectionContributions.AsEnumerable()
+                                  select new Report5UI                                       // Create new Report5UI object and assign it the values selected from the database
+                                  {
+                                      ElectionType = c.ElectionType,
+                                      ElectionYear = c.ElectionYear,
+                                      CandidateFirstName = c.CandidateFirstName,
+                                      CandidateLastName = c.CandidateLastName,
+                                      ContributionTypeDesc = c.ContributionTypeDesc
+                                  };
+
+                return report5Data.ToArray();                                                // ToArray() method is needed to prevent DbContext error
 
             }
-
-            return selectAmounts;
 
         }
 

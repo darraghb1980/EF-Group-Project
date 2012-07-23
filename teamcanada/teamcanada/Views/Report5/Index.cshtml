@@ -24,7 +24,7 @@
             @Html.DisplayNameFor(model => model.CandidateLastName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ContributionType)
+            @Html.DisplayNameFor(model => model.ContributionTypeDesc)
         </th>
         <th></th>
     </tr>
@@ -44,7 +44,7 @@
             @Html.DisplayFor(modelItem => item.CandidateLastName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.ContributionType)
+            @Html.DisplayFor(modelItem => item.ContributionTypeDesc)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.id }) |

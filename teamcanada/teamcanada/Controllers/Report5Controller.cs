@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using teamcanada.Models.ui;
 using teamcanada.Models;
+using teamcanada.dal;
 
 namespace teamcanada.Controllers
 {
@@ -19,7 +20,7 @@ namespace teamcanada.Controllers
 
         public ActionResult Index()
         {
-            return View(db.Report5UI.ToList());
+            return View(contributionsDAL.GetReportData());
         }
 
         //

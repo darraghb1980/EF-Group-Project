@@ -170,6 +170,10 @@
     <Compile Include="Migrations\201207191130182_AddingReportUIModels1.Designer.cs">
       <DependentUpon>201207191130182_AddingReportUIModels1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201207230008173_migration23Jul.cs" />
+    <Compile Include="Migrations\201207230008173_migration23Jul.Designer.cs">
+      <DependentUpon>201207230008173_migration23Jul.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Contributions.cs" />
