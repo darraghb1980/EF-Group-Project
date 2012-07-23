@@ -73,7 +73,7 @@ namespace teamcanada.Tests
         // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
         // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
         // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
+        /*[TestMethod()]
         [HostType("ASP.NET")]
         [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\darraghTestWork\\teamcanada\\teamcanada", "/")]
         [UrlToTest("http://localhost:53507/")]
@@ -85,7 +85,7 @@ namespace teamcanada.Tests
             actual = target.loadResults();
             Assert.AreEqual(expected, actual);
             Assert.Inconclusive("Verify the correctness of this test method.");
-        }
+        }*/
 
         /// <summary>
         ///A test for loadContributions
@@ -93,6 +93,7 @@ namespace teamcanada.Tests
         // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
         // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
         // whether you are testing a page, web service, or a WCF service.
+        /*
         [TestMethod()]
         [HostType("ASP.NET")]
         [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\darraghTestWork\\teamcanada\\teamcanada", "/")]
@@ -105,7 +106,7 @@ namespace teamcanada.Tests
             actual = target.loadContributions();
             Assert.AreEqual(expected, actual);
             Assert.Inconclusive("Verify the correctness of this test method.");
-        }
+        }*/
 
         /// <summary>
         ///A test for ResultsLoadCSV Constructor
@@ -113,7 +114,7 @@ namespace teamcanada.Tests
         // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
         // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
         // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
+        /*[TestMethod()]
         [HostType("ASP.NET")]
         [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\darraghTestWork\\teamcanada\\teamcanada", "/")]
         [UrlToTest("http://localhost:53507/")]
@@ -121,6 +122,6 @@ namespace teamcanada.Tests
         {
             ResultsLoadCSV target = new ResultsLoadCSV();
             Assert.Inconclusive("TODO: Implement code to verify target");
-        }
+        }*/
     }
 }

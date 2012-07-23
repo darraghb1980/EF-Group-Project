@@ -136,6 +136,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ContributionsController.cs" />
+    <Compile Include="Controllers\HomeController2.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Report1Controller.cs" />
     <Compile Include="Controllers\Report2Controller.cs" />

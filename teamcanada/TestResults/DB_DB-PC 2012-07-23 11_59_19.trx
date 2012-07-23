@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e03be510-7b56-4468-bf71-7acf3c33522c" name="DB@DB-PC 2012-07-23 11:59:19" runUser="DB-PC\DB" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="c6896cce-59d4-4faa-937b-773bf151b3e3">
+    <Deployment runDeploymentRoot="DB_DB-PC 2012-07-23 11_59_19">
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\teamcanada.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\WebGrease.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-23T11:59:19.3903198+01:00" queuing="2012-07-23T11:59:19.7013376+01:00" start="2012-07-23T11:59:19.7193387+01:00" finish="2012-07-23T11:59:20.5273849+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="notCSV" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="26b27bdd-b571-8e85-3fba-e429ec6da46a">
+      <Execution id="1de2afac-5857-4fcf-818f-7e0acdfa28f6" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.ResultsParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notCSV" />
+    </UnitTest>
+    <UnitTest name="supportsTypeTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="53003f27-50a8-4e72-8db5-25eddfad9bef">
+      <Execution id="c017d12c-9614-4b5c-be8f-fb2a4c56276d" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.ResultsParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest" />
+    </UnitTest>
+    <UnitTest name="Index_Get_RetrievesAllContributionsFromRepository2" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="e9bef975-94b0-3198-0e11-ae8b66c60d32">
+      <Execution id="bb5ac956-6d5e-4ac4-8d9c-d66382926d1d" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeController2Test, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_RetrievesAllContributionsFromRepository2" />
+    </UnitTest>
+    <UnitTest name="nullCSV" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="d7c3a872-a480-3907-3ae3-052dfa6e2244">
+      <Execution id="1098b698-7082-4db0-8cf1-1a0f12f5ffb6" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.ResultsParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nullCSV" />
+    </UnitTest>
+    <UnitTest name="Index_Get_RetrievesAllContributionsFromRepository" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="4941eb76-ab9e-2806-6942-ab58e1ddf4a2">
+      <Execution id="021d454f-fa24-464e-8039-b25b31112fe9" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeController2Test, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_RetrievesAllContributionsFromRepository" />
+    </UnitTest>
+    <UnitTest name="Index_Get_AsksForIndexView" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="af8e6f2a-4215-113b-1498-0851cedd99a5">
+      <Execution id="4ba29d1e-ab2f-4a0c-8542-b671fb4a4e56" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeController2Test, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_AsksForIndexView" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="26b27bdd-b571-8e85-3fba-e429ec6da46a" executionId="1de2afac-5857-4fcf-818f-7e0acdfa28f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4941eb76-ab9e-2806-6942-ab58e1ddf4a2" executionId="021d454f-fa24-464e-8039-b25b31112fe9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53003f27-50a8-4e72-8db5-25eddfad9bef" executionId="c017d12c-9614-4b5c-be8f-fb2a4c56276d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af8e6f2a-4215-113b-1498-0851cedd99a5" executionId="4ba29d1e-ab2f-4a0c-8542-b671fb4a4e56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7c3a872-a480-3907-3ae3-052dfa6e2244" executionId="1098b698-7082-4db0-8cf1-1a0f12f5ffb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9bef975-94b0-3198-0e11-ae8b66c60d32" executionId="bb5ac956-6d5e-4ac4-8d9c-d66382926d1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1de2afac-5857-4fcf-818f-7e0acdfa28f6" testId="26b27bdd-b571-8e85-3fba-e429ec6da46a" testName="notCSV" computerName="DB-PC" duration="00:00:00.0204872" startTime="2012-07-23T11:59:19.7903427+01:00" endTime="2012-07-23T11:59:20.2423686+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1de2afac-5857-4fcf-818f-7e0acdfa28f6">
+    </UnitTestResult>
+    <UnitTestResult executionId="021d454f-fa24-464e-8039-b25b31112fe9" testId="4941eb76-ab9e-2806-6942-ab58e1ddf4a2" testName="Index_Get_RetrievesAllContributionsFromRepository" computerName="DB-PC" duration="00:00:00.0190655" startTime="2012-07-23T11:59:20.2443687+01:00" endTime="2012-07-23T11:59:20.2783706+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="021d454f-fa24-464e-8039-b25b31112fe9">
+    </UnitTestResult>
+    <UnitTestResult executionId="c017d12c-9614-4b5c-be8f-fb2a4c56276d" testId="53003f27-50a8-4e72-8db5-25eddfad9bef" testName="supportsTypeTest" computerName="DB-PC" duration="00:00:00.0080101" startTime="2012-07-23T11:59:20.2833709+01:00" endTime="2012-07-23T11:59:20.3013720+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c017d12c-9614-4b5c-be8f-fb2a4c56276d">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ba29d1e-ab2f-4a0c-8542-b671fb4a4e56" testId="af8e6f2a-4215-113b-1498-0851cedd99a5" testName="Index_Get_AsksForIndexView" computerName="DB-PC" duration="00:00:00.0009464" startTime="2012-07-23T11:59:20.3153728+01:00" endTime="2012-07-23T11:59:20.3223732+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ba29d1e-ab2f-4a0c-8542-b671fb4a4e56">
+    </UnitTestResult>
+    <UnitTestResult executionId="1098b698-7082-4db0-8cf1-1a0f12f5ffb6" testId="d7c3a872-a480-3907-3ae3-052dfa6e2244" testName="nullCSV" computerName="DB-PC" duration="00:00:00.0042550" startTime="2012-07-23T11:59:20.3263734+01:00" endTime="2012-07-23T11:59:20.3343738+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1098b698-7082-4db0-8cf1-1a0f12f5ffb6">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb5ac956-6d5e-4ac4-8d9c-d66382926d1d" testId="e9bef975-94b0-3198-0e11-ae8b66c60d32" testName="Index_Get_RetrievesAllContributionsFromRepository2" computerName="DB-PC" duration="00:00:00.0411999" startTime="2012-07-23T11:59:20.3563751+01:00" endTime="2012-07-23T11:59:20.4343796+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb5ac956-6d5e-4ac4-8d9c-d66382926d1d">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.Contains failed. </Message>
+          <StackTrace>   at teamcanada.Tests.Controllers.HomeController2Test.Index_Get_RetrievesAllContributionsFromRepository2() in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\Controllers\HomeController2Test.cs:line 194
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

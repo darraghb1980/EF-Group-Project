@@ -146,6 +146,31 @@ namespace teamcanada.Tests.Controllers
                 // Arrange
                 Contributions Contribution1 = GetContributionNamed("Council", 2003);
                 Contributions Contribution2 = GetContributionNamed("Council", 2004);
+               
+                InMemoryContributionRepository repository = new InMemoryContributionRepository();
+                repository.Add(Contribution1);
+                repository.Add(Contribution2);
+                var controller = GetHomeController(repository);
+
+                // Act
+                var result = controller.Index();
+
+                // Assert
+                var model = (IEnumerable<Contributions>)result.ViewData.Model;
+                CollectionAssert.Contains(model.ToList(), Contribution1);
+                CollectionAssert.Contains(model.ToList(), Contribution2);
+               // confirm model has 2 values added
+                Assert.AreEqual(2, model.ToList().Count());
+               
+                
+            }
+            [TestMethod]
+            public void Index_Get_RetrievesAllContributionsFromRepository2()
+            {
+
+                // Arrange
+                Contributions Contribution1 = GetContributionNamed("Council", 2003);
+                Contributions Contribution2 = GetContributionNamed("Council", 2004);
                 Contributions Contribution3 = GetContributionNamed("Council", 2009);
                 InMemoryContributionRepository repository = new InMemoryContributionRepository();
                 repository.Add(Contribution1);
@@ -159,16 +184,16 @@ namespace teamcanada.Tests.Controllers
                 var model = (IEnumerable<Contributions>)result.ViewData.Model;
                 CollectionAssert.Contains(model.ToList(), Contribution1);
                 CollectionAssert.Contains(model.ToList(), Contribution2);
-                //check if contribution 3 has been added, which it hasn't.
-                //CollectionAssert.Contains(model.ToList(), Contribution3);
+                //check if contribution 3 has been added, which it hasn't.should fail
+                CollectionAssert.Contains(model.ToList(), Contribution3);
                 //check if contribution 1 has two values
-               
-                
+
+
             }
 
             
             
-            
+            /*not needed as we don't create contribution
             //To add a test for creating a Contribution
             [TestMethod]
             public void Create_Post_ReturnsViewIfModelStateIsNotValid()
@@ -187,7 +212,7 @@ namespace teamcanada.Tests.Controllers
 
                 // Assert
                 Assert.AreEqual("Create", result.ViewName);
-            }
+            }*/
 
            
 
