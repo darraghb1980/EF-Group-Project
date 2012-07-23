@@ -75,10 +75,10 @@ namespace teamcanada.Tests
         // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
-        // [HostType("ASP.NET")]
-        //[AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\darraghTestWork\\teamcanada\\teamcanada", "/")]
-        //[UrlToTest("http://localhost:53507/")]
-        //[DeploymentItem("teamcanada.dll")]
+         [HostType("ASP.NET")]
+        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\darraghTestWork\\teamcanada\\teamcanada", "/")]
+        [UrlToTest("http://localhost:53507/")]
+        [DeploymentItem("teamcanada.dll")]
         public void supportsTypeTest()
         {
             AllDataParser target = new ResultsParse(); // TODO: Initialize to an appropriate value
@@ -116,6 +116,45 @@ namespace teamcanada.Tests
             actual = target.supportsType(format);
             Assert.AreEqual(expected, actual);
             //Assert.Inconclusive("Verify the correctness of this test method.");
+        }
+
+        //StreamReader
+        [TestMethod()]
+        public void parsecsvTest()
+        {
+            StreamReader reader = new StreamReader("C:\\Users\\DB\\Documents\\NCI\\Enterprise Frameworks\\Project\\testContributions.csv", true);
+
+            AllDataParser target = new ResultsParse();
+            target.setStreamSource(reader);
+            Contributions r = new Contributions();
+            r.ElectionType = "Council";
+            r.ElectionYear = 2006;
+            r.ContributorLastName = "Aloi";
+            r.ContributorFirstName = "77";
+            r.ContributorAddress = "asdhfbkaef";
+            r.ContributorPostCode = "efeae";
+            r.WardNum = 3;
+            r.Amount = 200;
+            r.ContributionTypeDesc = "Cash";
+            r.ContributorTypeDesc = "individ";
+            r.CandidateFirstName = "joe";
+            r.CandidateLastName = "walsh";
+            
+            //r.rate = 1.33;
+
+            List<Contributions> expected = new List<Contributions>();
+            expected.Add(r);
+
+            List<Contributions> actual;
+            actual = target.parseContributions();
+            //Assert.AreEqual(expected.Count, actual.Count);
+
+            Contributions ElectionType = actual.Find(item => item.ElectionType == "Council");
+
+
+            Assert.IsNotNull(ElectionType);
+
+            // As an exercise for the reader, make sure that the rate object is correctly populated
         }
     }
 }
