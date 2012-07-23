@@ -16,39 +16,51 @@ namespace teamcanada.Models
         public int id { get; set; }
 
         [Column(Name = "ELECTIONTYPE")]
+        [DisplayName("Election Type")]
         public String ElectionType { get; set; }
 
         [Column(Name = "ELECTIONYEAR")]
+        [DisplayName("Election Year")]
         public int ElectionYear { get; set; }
 
         [Column(Name = "CONTRIBUTORLASTNAME")]
+        [DisplayName("Contributor Surname")]
         public String ContributorLastName { get; set; }
 
         [Column(Name = "CONTRIBUTORFIRSTNAME")]
+        [DisplayName("Contributor First Name")]
         public String ContributorFirstName { get; set; }
 
         [Column(Name = "CONTRIBUTORADDRESS")]
+        [DisplayName("Contributor Address")]
         public String ContributorAddress { get; set; }
 
         [Column(Name = "CONTRIBUTORPOSTCODE")]
+        [DisplayName("Contributor Postcode")]
         public String ContributorPostCode { get; set; }
 
         [Column(Name = "WARD_NUM")]
+        [DisplayName("Ward Number")]
         public int WardNum { get; set; }
 
         [Column(Name = "AMOUNT")]
+        [DisplayName("Amount")]
         public float Amount { get; set; }
 
         [Column(Name = "CONTRIBUTIONTYPEDESC")]
+        [DisplayName("Type of Contribution")]
         public String ContributionTypeDesc { get; set; }
 
         [Column(Name = "CONTRIBUTORTYPEDESC")]
+        [DisplayName("Type of Contributor")]
         public String ContributorTypeDesc { get; set; }
 
         [Column(Name = "CANDIDATEFIRSTNAME")]
+        [DisplayName("Candidate First Name")]
         public String CandidateFirstName { get; set; }
 
         [Column(Name = "CANDIDATELASTNAME")]
+        [DisplayName("Candidate Surname")]
         public String CandidateLastName { get; set; }
 
 

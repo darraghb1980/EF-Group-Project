@@ -15,21 +15,27 @@ namespace teamcanada.Models
         public int id { get; set; }
         
         [Column(Name = "ELECTIONTYPE")]
+        [DisplayName("Election Type")]
         public String ElectionType { get; set; }
 
         [Column(Name = "ELECTIONYEAR")]
+        [DisplayName("Election Year")]
         public int ElectionYear { get; set; }
 
         [Column(Name = "WARDNUM")]
+        [DisplayName("Ward Number")]
         public int WardNum { get; set; }
 
         [Column(Name = "NUMVOTES")]
+        [DisplayName("Number of Votes")]
         public int NumVotes { get; set; }
 
         [Column(Name = "CANDIDATELASTTNAME")]
+        [DisplayName("Candidate Surname")]
         public String CandidateLastName { get; set; }
 
         [Column(Name = "CANDIDATEFIRSTNAME")]
+        [DisplayName("Candidate First Name")]
         public String CandidateFirstName { get; set; }
 
         public Results()

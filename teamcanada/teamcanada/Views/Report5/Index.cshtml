@@ -9,8 +9,8 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table>
-    <tr>
+<table cellpadding = "5">
+    <tr align = "center">
         <th>
             @Html.DisplayNameFor(model => model.ElectionType)
         </th>
@@ -30,7 +30,7 @@
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
+    <tr align = "center">
         <td>
             @Html.DisplayFor(modelItem => item.ElectionType)
         </td>
@@ -46,11 +46,12 @@
         <td>
             @Html.DisplayFor(modelItem => item.ContributionTypeDesc)
         </td>
-        <td>
+      <!--  <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
             @Html.ActionLink("Details", "Details", new { id=item.id }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.id })
         </td>
+        -->
     </tr>
 }
 

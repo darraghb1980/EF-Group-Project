@@ -19,7 +19,7 @@ namespace teamcanada.Controllers
 
         public ActionResult Index()
         {
-            return View(db.ResultsUIs.ToList());
+            return View(db.Report1UI.ToList());
         }
 
         //
@@ -27,7 +27,7 @@ namespace teamcanada.Controllers
 
         public ActionResult Details(int id = 0)
         {
-            Report1UI report1ui = db.ResultsUIs.Find(id);
+            Report1UI report1ui = db.Report1UI.Find(id);
             if (report1ui == null)
             {
                 return HttpNotFound();
@@ -51,7 +51,7 @@ namespace teamcanada.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.ResultsUIs.Add(report1ui);
+                db.Report1UI.Add(report1ui);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -64,7 +64,7 @@ namespace teamcanada.Controllers
 
         public ActionResult Edit(int id = 0)
         {
-            Report1UI report1ui = db.ResultsUIs.Find(id);
+            Report1UI report1ui = db.Report1UI.Find(id);
             if (report1ui == null)
             {
                 return HttpNotFound();
@@ -92,7 +92,7 @@ namespace teamcanada.Controllers
 
         public ActionResult Delete(int id = 0)
         {
-            Report1UI report1ui = db.ResultsUIs.Find(id);
+            Report1UI report1ui = db.Report1UI.Find(id);
             if (report1ui == null)
             {
                 return HttpNotFound();
@@ -106,8 +106,8 @@ namespace teamcanada.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            Report1UI report1ui = db.ResultsUIs.Find(id);
-            db.ResultsUIs.Remove(report1ui);
+            Report1UI report1ui = db.Report1UI.Find(id);
+            db.Report1UI.Remove(report1ui);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
