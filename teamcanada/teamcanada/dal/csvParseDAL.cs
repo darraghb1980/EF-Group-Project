@@ -33,7 +33,7 @@ namespace teamcanada.dal
             List<Results> results = null;
             List<Contributions> contributions = null;
 
-            ResultsLoadCSV import = new ResultsLoadCSV();
+            LoadCSV import = new LoadCSV();
 
             results = import.loadResults();
 

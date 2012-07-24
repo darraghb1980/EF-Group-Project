@@ -138,22 +138,16 @@
     <Compile Include="Controllers\ContributionsController.cs" />
     <Compile Include="Controllers\HomeController2.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\Report1Controller.cs" />
-    <Compile Include="Controllers\Report2Controller.cs" />
-    <Compile Include="Controllers\Report3Controller.cs" />
-    <Compile Include="Controllers\Report4Controller.cs" />
-    <Compile Include="Controllers\Report5Controller.cs" />
+    <Compile Include="Controllers\ReportsController.cs" />
     <Compile Include="Controllers\ResultsController.cs" />
-    <Compile Include="dal\resultsDAL.cs" />
-    <Compile Include="dal\contributionsDAL.cs" />
     <Compile Include="dal\csvParseDAL.cs" />
-    <Compile Include="dal\viewDAL.cs" />
+    <Compile Include="dal\ReportsDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="ingestion\ResultsLoadCSV.cs" />
+    <Compile Include="ingestion\LoadCSV.cs" />
     <Compile Include="ingestion\AllDataParser.cs" />
-    <Compile Include="ingestion\ResultsParse.cs" />
+    <Compile Include="ingestion\DataParse.cs" />
     <Compile Include="logic\Calculations.cs" />
     <Compile Include="Migrations\201207141031299_InitialCreate.cs" />
     <Compile Include="Migrations\201207141031299_InitialCreate.Designer.cs">
@@ -175,6 +169,22 @@
     <Compile Include="Migrations\201207230008173_migration23Jul.Designer.cs">
       <DependentUpon>201207230008173_migration23Jul.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201207230933080_modelchanges.cs" />
+    <Compile Include="Migrations\201207230933080_modelchanges.Designer.cs">
+      <DependentUpon>201207230933080_modelchanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201207232054238_dal_changes.cs" />
+    <Compile Include="Migrations\201207232054238_dal_changes.Designer.cs">
+      <DependentUpon>201207232054238_dal_changes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201207232120041_new_dal.cs" />
+    <Compile Include="Migrations\201207232120041_new_dal.Designer.cs">
+      <DependentUpon>201207232120041_new_dal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201207232125420_new_dal1.cs" />
+    <Compile Include="Migrations\201207232125420_new_dal1.Designer.cs">
+      <DependentUpon>201207232125420_new_dal1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Contributions.cs" />
@@ -182,11 +192,7 @@
     <Compile Include="Models\IContributionRepository.cs" />
     <Compile Include="Models\Results.cs" />
     <Compile Include="Models\torontoDB.cs" />
-    <Compile Include="Models\ui\Report3UI.cs" />
-    <Compile Include="Models\ui\Report2UI.cs" />
-    <Compile Include="Models\ui\Report1UI.cs" />
-    <Compile Include="Models\ui\Report4UI.cs" />
-    <Compile Include="Models\ui\Report5UI.cs" />
+    <Compile Include="Models\ui\ReportsUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -293,31 +299,11 @@
     <Content Include="Views\Results\Edit.cshtml" />
     <Content Include="Views\Results\Index.cshtml" />
     <None Include="ClassDiagram2.cd" />
-    <Content Include="Views\Report1\Index.cshtml" />
-    <Content Include="Views\Report1\Details.cshtml" />
-    <Content Include="Views\Report1\Create.cshtml" />
-    <Content Include="Views\Report1\Edit.cshtml" />
-    <Content Include="Views\Report1\Delete.cshtml" />
-    <Content Include="Views\Report2\Index.cshtml" />
-    <Content Include="Views\Report2\Details.cshtml" />
-    <Content Include="Views\Report2\Create.cshtml" />
-    <Content Include="Views\Report2\Edit.cshtml" />
-    <Content Include="Views\Report2\Delete.cshtml" />
-    <Content Include="Views\Report3\Index.cshtml" />
-    <Content Include="Views\Report3\Details.cshtml" />
-    <Content Include="Views\Report3\Create.cshtml" />
-    <Content Include="Views\Report3\Edit.cshtml" />
-    <Content Include="Views\Report3\Delete.cshtml" />
-    <Content Include="Views\Report4\Index.cshtml" />
-    <Content Include="Views\Report4\Details.cshtml" />
-    <Content Include="Views\Report4\Create.cshtml" />
-    <Content Include="Views\Report4\Edit.cshtml" />
-    <Content Include="Views\Report4\Delete.cshtml" />
-    <Content Include="Views\Report5\Index.cshtml" />
-    <Content Include="Views\Report5\Details.cshtml" />
-    <Content Include="Views\Report5\Create.cshtml" />
-    <Content Include="Views\Report5\Edit.cshtml" />
-    <Content Include="Views\Report5\Delete.cshtml" />
+    <Content Include="Views\Reports\Create.cshtml" />
+    <Content Include="Views\Reports\Delete.cshtml" />
+    <Content Include="Views\Reports\Details.cshtml" />
+    <Content Include="Views\Reports\Edit.cshtml" />
+    <Content Include="Views\Reports\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

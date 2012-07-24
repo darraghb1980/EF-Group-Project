@@ -47,34 +47,3 @@ namespace teamcanada.Controllers
 
     }
 }
-
-/*
-	using System;
-	using System.Web;
-	using teamcanada.Models;
-using System.Web.Mvc;
-	
-	namespace teamcanada.Controllers {
-	    [HandleError]
-	    public class HomeController : Controller {
-	        IContributionRepository _repository;
-	        public HomeController() : this(new EF_ContributionRepository()) { }
-	        public HomeController(IContributionRepository repository) {
-	            _repository = repository;
-	        }
-	       public ViewResult Index() {
-	            throw new NotImplementedException();
-	        }
-	    	public ViewResult Index() {
-	            return View("Index", _repository.GetAllContributions());
-	        }
-
-
-            public ViewResult Create(Contributions model)
-            {
-                throw new NotImplementedException();
-            }
-        }
-	}
-
-*/
