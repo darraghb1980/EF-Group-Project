@@ -20,9 +20,13 @@ namespace teamcanada.dal
         {
             using (torontoDB db = new torontoDB())
             {
+                //var electoraltype = 1;
 
                 var reportData = from c in db.ElectionContributions.AsEnumerable()
-                                  select new ReportsUI                                       // Create new ReportUI object and assign it the values selected from the database
+                                
+                 where c.ElectionType == ("Mayoral")
+
+                                 select new ReportsUI                                       // Create new ReportUI object and assign it the values selected from the database
                                   {
                                       ElectionType = c.ElectionType,
                                       ElectionYear = c.ElectionYear,
@@ -30,6 +34,7 @@ namespace teamcanada.dal
                                       CandidateLastName = c.CandidateLastName,
                                       ContributionTypeDesc = c.ContributionTypeDesc
                                   };
+
 
                 return reportData.ToArray();                                                // ToArray() method is needed to prevent DbContext error
 
