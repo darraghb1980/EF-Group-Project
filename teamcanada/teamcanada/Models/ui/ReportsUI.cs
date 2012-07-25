@@ -15,6 +15,9 @@ namespace teamcanada.Models.ui
         public String CandidateFirstName { get; set; }
         public String CandidateLastName { get; set; }
         public String ContributionTypeDesc { get; set; }
+        public float Amount { get; set; }
+        public float TotalAmount { get; set; }
+        
         //public float Amount { get; set; }  ---- do this after we get a join working
 
         //public int TotalContributions { get; set; }  

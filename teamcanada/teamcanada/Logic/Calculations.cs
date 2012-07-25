@@ -19,6 +19,32 @@ namespace teamcanada.logic
         Contributions totalContrib = new Contributions();
         Results totalResult = new Results();
 
+        float totalAmount;
+        int totalVotes;
+
+        public float calculateTotals()
+        {
+            var sumAmount = ReportsDAL.GetReportData();
+
+            // if getting contributions amount total do this...
+            foreach (ReportsUI a in sumAmount)
+            {
+                totalAmount += a.Amount;
+                //Console.WriteLine(i);
+            }
+
+            // else if getting votes total do this...
+            /* var sumVotes = ReportsDAL.GetReportData();
+
+            foreach (ReportsUI b in sumVotes)
+            {
+                totalVotes += b.NumVotes;
+            } */
+
+            return totalAmount;
+
+
+        }
     }
 
 
