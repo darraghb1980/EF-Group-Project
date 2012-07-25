@@ -152,32 +152,29 @@ namespace teamcanada.Tests
         // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
-        //[HostType("ASP.NET")]
-        //[AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
-        //[UrlToTest("http://localhost:53507/")]
-        //[DeploymentItem("teamcanada.dll")]
         public void supportsTypeTest()
         {
             AllDataParser target = new DataParse(); // TODO: Initialize to an appropriate value
-            string format = null; // TODO: Initialize to an appropriate value
-            bool expected = false; ; // TODO: Initialize to an appropriate value
+            string format = "csv"; // TODO: Initialize to an appropriate value
+            bool expected = true; ; // TODO: Initialize to an appropriate value
             bool actual;
             actual = target.supportsType(format);
             Assert.AreEqual(expected, actual);
             //Assert.Inconclusive("Verify the correctness of this test method.");
         }
 
-        [TestMethod()]
+       /* same as previous
+        * [TestMethod()]
         public void nullCSV()
         {
             AllDataParser target = new DataParse(); // TODO: Initialize to an appropriate value
-            string format = null; // TODO: Initialize to an appropriate value
-            bool expected = false; ; // TODO: Initialize to an appropriate value
+            string format = "csv"; // TODO: Initialize to an appropriate value
+            bool expected = true; ; // TODO: Initialize to an appropriate value
             bool actual;
             actual = target.supportsType(format);
             Assert.AreEqual(expected, actual);
             //Assert.Inconclusive("Verify the correctness of this test method.");
-        }
+        }*/
 
         [TestMethod()]
         public void notCSV()

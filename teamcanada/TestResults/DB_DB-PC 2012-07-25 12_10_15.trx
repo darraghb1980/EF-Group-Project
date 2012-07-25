@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="2720fb62-cc79-4332-b892-61436a682b8b" name="DB@DB-PC 2012-07-25 10:31:38" runUser="DB-PC\DB" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="Default Test Settings" id="fa79d9d1-90f7-43ef-8a0d-2760479abc43">
-    <Deployment runDeploymentRoot="DB_DB-PC 2012-07-25 10_31_38">
+<TestRun id="5a713e6f-d8b1-45ff-b50a-854f6b2f9b4f" name="DB@DB-PC 2012-07-25 12:10:15" runUser="DB-PC\DB" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="2cbe471b-6225-4624-9d75-449509a41373">
+    <Deployment runDeploymentRoot="DB_DB-PC 2012-07-25 12_10_15">
       <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll" />
       <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\teamcanada.dll" />
       <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
@@ -29,14 +29,14 @@
       </AgentRule>
     </Execution>
   </TestSettings>
-  <Times creation="2012-07-25T10:31:38.9372894+01:00" queuing="2012-07-25T10:31:40.5163638+01:00" start="2012-07-25T10:31:40.5213638+01:00" finish="2012-07-25T10:31:40.9413644+01:00" />
-  <ResultSummary outcome="Failed">
-    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  <Times creation="2012-07-25T12:10:15.1829707+01:00" queuing="2012-07-25T12:10:17.0380768+01:00" start="2012-07-25T12:10:17.1690843+01:00" finish="2012-07-25T12:10:17.8201215+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="parsecsvTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="af2355c4-02af-79bb-5762-10f56d80dae0">
-      <Execution id="8332970f-01a7-4dc3-9752-62f09a1aebc9" />
-      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parsecsvTest" />
+    <UnitTest name="supportsTypeTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="c90dda35-ad84-fc40-7268-f818f88cbea7">
+      <Execution id="ad02d790-aef6-4e10-9753-be3e14c3ff5c" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest" />
     </UnitTest>
   </TestDefinitions>
   <TestLists>
@@ -44,17 +44,10 @@
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="af2355c4-02af-79bb-5762-10f56d80dae0" executionId="8332970f-01a7-4dc3-9752-62f09a1aebc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c90dda35-ad84-fc40-7268-f818f88cbea7" executionId="ad02d790-aef6-4e10-9753-be3e14c3ff5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="8332970f-01a7-4dc3-9752-62f09a1aebc9" testId="af2355c4-02af-79bb-5762-10f56d80dae0" testName="parsecsvTest" computerName="DB-PC" duration="00:00:00.1031396" startTime="2012-07-25T10:31:40.5363638+01:00" endTime="2012-07-25T10:31:40.9063643+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8332970f-01a7-4dc3-9752-62f09a1aebc9">
-      <Output>
-        <ErrorInfo>
-          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;4&gt;. </Message>
-          <StackTrace>   at teamcanada.Tests.DataParseTest.parsecsvTest() in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\DataParseTest.cs:line 222
-</StackTrace>
-        </ErrorInfo>
-      </Output>
+    <UnitTestResult executionId="ad02d790-aef6-4e10-9753-be3e14c3ff5c" testId="c90dda35-ad84-fc40-7268-f818f88cbea7" testName="supportsTypeTest" computerName="DB-PC" duration="00:00:00.0233970" startTime="2012-07-25T12:10:17.3050920+01:00" endTime="2012-07-25T12:10:17.6601124+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad02d790-aef6-4e10-9753-be3e14c3ff5c">
     </UnitTestResult>
   </Results>
 </TestRun>
