@@ -67,17 +67,17 @@ namespace teamcanada.Tests
         //
         #endregion
 
-
+        /*removing auto generated tests
         /// <summary>
         ///A test for DataParse Constructor
         ///</summary>
         // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
         // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
         // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
-        [UrlToTest("http://localhost:53507/")]
+        [TestMethod]
+        //[HostType("ASP.NET")]
+        //[AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
+        //[UrlToTest("http://localhost:53507/")]
         public void DataParseConstructorTest()
         {
             DataParse target = new DataParse();
@@ -144,7 +144,7 @@ namespace teamcanada.Tests
             target.setStreamSource(reader);
             Assert.Inconclusive("A method that does not return a value cannot be verified.");
         }
-
+        */
         /// <summary>
         ///A test for teamcanada.ingestion.AllDataParser.supportsType
         ///</summary>
@@ -152,10 +152,10 @@ namespace teamcanada.Tests
         // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
-        [UrlToTest("http://localhost:53507/")]
-        [DeploymentItem("teamcanada.dll")]
+        //[HostType("ASP.NET")]
+        //[AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
+        //[UrlToTest("http://localhost:53507/")]
+        //[DeploymentItem("teamcanada.dll")]
         public void supportsTypeTest()
         {
             AllDataParser target = new DataParse(); // TODO: Initialize to an appropriate value
@@ -195,7 +195,7 @@ namespace teamcanada.Tests
         [TestMethod()]
         public void parsecsvTest()
         {
-            StreamReader reader = new StreamReader("C:\\Users\\DB\\Documents\\NCI\\Enterprise Frameworks\\Project\\testContributions.csv", true);
+            StreamReader reader = new StreamReader("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\datasets\\test_files\\testContributions.csv", true);
 
             AllDataParser target = new DataParse();
             target.setStreamSource(reader);
@@ -213,16 +213,54 @@ namespace teamcanada.Tests
             r.CandidateFirstName = "joe";
             r.CandidateLastName = "walsh";
 
-            //r.rate = 1.33;
-
+           
             List<Contributions> expected = new List<Contributions>();
+            expected.Add(r);
+            expected.Add(r);
+            expected.Add(r);
             expected.Add(r);
 
             List<Contributions> actual;
             actual = target.parseContributions();
-            //Assert.AreEqual(expected.Count, actual.Count);
+            Assert.AreEqual(expected.Count, actual.Count);
 
             Contributions ElectionType = actual.Find(item => item.ElectionType == "Council");
+
+
+            Assert.IsNotNull(ElectionType);
+
+            // As an exercise for the reader, make sure that the rate object is correctly populated
+        }
+
+        //StreamReader
+        [TestMethod()]
+        public void parsecsvTest2()
+        {
+            StreamReader reader = new StreamReader("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\datasets\\test_files\\testResults.csv", true);
+
+            AllDataParser target = new DataParse();
+            target.setStreamSource(reader);
+            Results r = new Results();
+            r.ElectionType = "Mayoral";
+            r.ElectionYear = 2006;
+            r.WardNum = 1;
+            r.NumVotes = 134;
+            r.CandidateLastName = "Alexander";
+            r.CandidateFirstName = "Michael";
+
+                    
+            List<Results> expected = new List<Results>();
+            expected.Add(r);
+            expected.Add(r);
+            expected.Add(r);
+
+            List<Results> actual;
+            actual = target.parseResults();
+
+            //there are 3 values in the test file
+            Assert.AreEqual(expected.Count, actual.Count);
+
+            Results ElectionType = actual.Find(item => item.ElectionType == "Mayoral");
 
 
             Assert.IsNotNull(ElectionType);

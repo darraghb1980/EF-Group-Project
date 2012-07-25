@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1b7d0745-315d-43b3-9464-c837aab3872e" name="DB@DB-PC 2012-07-25 10:43:22" runUser="DB-PC\DB" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="55cb49af-b8ad-4b04-b26b-1b34fdcd221b">
+    <Deployment runDeploymentRoot="DB_DB-PC 2012-07-25 10_43_22">
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada\bin\teamcanada.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\WebGrease.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-25T10:43:22.5968600+01:00" queuing="2012-07-25T10:43:24.4909683+01:00" start="2012-07-25T10:43:24.5089694+01:00" finish="2012-07-25T10:43:51.0691714+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="12" executed="12" passed="6" error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="parsecsvTest2" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="bf3c0814-b6d0-cc49-ff05-7e717a971cf6">
+      <Execution id="0e08e494-2136-4202-95f3-ffcabfd8e23f" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parsecsvTest2" />
+    </UnitTest>
+    <UnitTest name="notCSV" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="f6579fb4-0d0c-8d1a-48e0-a4a31bab33f7">
+      <Execution id="2ab865cb-d614-4858-a599-4a7388e046fc" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notCSV" />
+    </UnitTest>
+    <UnitTest name="parsecsvTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="af2355c4-02af-79bb-5762-10f56d80dae0">
+      <Execution id="7220e5f1-818c-40a8-ad32-907838ea53cf" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parsecsvTest" />
+    </UnitTest>
+    <UnitTest name="parseContributionsTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="837bc3b4-d1aa-6938-a30b-945efebea5d6">
+      <DeploymentItems>
+        <DeploymentItem filename="teamcanada.dll" />
+      </DeploymentItems>
+      <Execution id="50eef78d-33b3-4127-9287-4c20b1748936" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseContributionsTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="setStreamSourceTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="116c0219-2983-c9fb-50b3-e5bb849359a4">
+      <DeploymentItems>
+        <DeploymentItem filename="teamcanada.dll" />
+      </DeploymentItems>
+      <Execution id="02d195a5-f70d-433a-8b72-9113218704ba" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="parseResultsTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="9046cae3-a61f-96f0-8fa1-4451ad2286dd">
+      <DeploymentItems>
+        <DeploymentItem filename="teamcanada.dll" />
+      </DeploymentItems>
+      <Execution id="3035a630-e4d3-4066-89f8-0c274fcc6485" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseResultsTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DataParseConstructorTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="32c3cfd1-fde2-d6a4-8490-4674618b9928">
+      <Execution id="9ef8593d-4ac6-448e-a9cb-b3c6794a9300" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataParseConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="supportsTypeTest" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="c90dda35-ad84-fc40-7268-f818f88cbea7">
+      <DeploymentItems>
+        <DeploymentItem filename="teamcanada.dll" />
+      </DeploymentItems>
+      <Execution id="c03ad5b3-e691-4964-8f14-12e65b3d4e12" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest" />
+      <AspNet webSiteUrl="http://localhost:53507/">
+        <Host pathToWebApp="C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Index_Get_RetrievesAllContributionsFromRepository" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="4941eb76-ab9e-2806-6942-ab58e1ddf4a2">
+      <Execution id="36ef6cb7-229d-4b04-8338-d11c34a3221c" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeController2Test, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_RetrievesAllContributionsFromRepository" />
+    </UnitTest>
+    <UnitTest name="nullCSV" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="b10192e2-093c-4de7-6c9b-de775bc9b4e0">
+      <Execution id="1143bb8d-f0df-4fd3-860c-2cf9f08a6027" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.DataParseTest, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nullCSV" />
+    </UnitTest>
+    <UnitTest name="Index_Get_AsksForIndexView" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="af8e6f2a-4215-113b-1498-0851cedd99a5">
+      <Execution id="2e8697df-93d0-4861-bd11-76942c9b2335" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeController2Test, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_AsksForIndexView" />
+    </UnitTest>
+    <UnitTest name="Index_Get_RetrievesAllContributionsFromRepository2" storage="c:\users\db\documents\github\ef-group-project\teamcanada\teamcanada.tests\bin\debug\teamcanada.tests.dll" id="e9bef975-94b0-3198-0e11-ae8b66c60d32">
+      <Execution id="b56f7434-0861-4cb9-9991-b12a160eee9b" />
+      <TestMethod codeBase="C:/Users/DB/Documents/GitHub/EF-Group-Project/teamcanada/teamcanada.Tests/bin/Debug/teamcanada.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="teamcanada.Tests.Controllers.HomeController2Test, teamcanada.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Get_RetrievesAllContributionsFromRepository2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="116c0219-2983-c9fb-50b3-e5bb849359a4" executionId="02d195a5-f70d-433a-8b72-9113218704ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32c3cfd1-fde2-d6a4-8490-4674618b9928" executionId="9ef8593d-4ac6-448e-a9cb-b3c6794a9300" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4941eb76-ab9e-2806-6942-ab58e1ddf4a2" executionId="36ef6cb7-229d-4b04-8338-d11c34a3221c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="837bc3b4-d1aa-6938-a30b-945efebea5d6" executionId="50eef78d-33b3-4127-9287-4c20b1748936" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9046cae3-a61f-96f0-8fa1-4451ad2286dd" executionId="3035a630-e4d3-4066-89f8-0c274fcc6485" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af2355c4-02af-79bb-5762-10f56d80dae0" executionId="7220e5f1-818c-40a8-ad32-907838ea53cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af8e6f2a-4215-113b-1498-0851cedd99a5" executionId="2e8697df-93d0-4861-bd11-76942c9b2335" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b10192e2-093c-4de7-6c9b-de775bc9b4e0" executionId="1143bb8d-f0df-4fd3-860c-2cf9f08a6027" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf3c0814-b6d0-cc49-ff05-7e717a971cf6" executionId="0e08e494-2136-4202-95f3-ffcabfd8e23f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c90dda35-ad84-fc40-7268-f818f88cbea7" executionId="c03ad5b3-e691-4964-8f14-12e65b3d4e12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9bef975-94b0-3198-0e11-ae8b66c60d32" executionId="b56f7434-0861-4cb9-9991-b12a160eee9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6579fb4-0d0c-8d1a-48e0-a4a31bab33f7" executionId="2ab865cb-d614-4858-a599-4a7388e046fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="02d195a5-f70d-433a-8b72-9113218704ba" testId="116c0219-2983-c9fb-50b3-e5bb849359a4" testName="setStreamSourceTest" computerName="DB-PC" startTime="2012-07-25T10:43:24.7209815+01:00" endTime="2012-07-25T10:43:48.2591675+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02d195a5-f70d-433a-8b72-9113218704ba">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:53507/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_setStreamSourceTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DB-PC\WebRequestResponse_setStreamSourceTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="9ef8593d-4ac6-448e-a9cb-b3c6794a9300" testId="32c3cfd1-fde2-d6a4-8490-4674618b9928" testName="DataParseConstructorTest" computerName="DB-PC" startTime="2012-07-25T10:43:48.2641675+01:00" endTime="2012-07-25T10:43:49.7841696+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ef8593d-4ac6-448e-a9cb-b3c6794a9300">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:53507/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DataParseConstructor.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DB-PC\WebRequestResponse_DataParseConstructor.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="36ef6cb7-229d-4b04-8338-d11c34a3221c" testId="4941eb76-ab9e-2806-6942-ab58e1ddf4a2" testName="Index_Get_RetrievesAllContributionsFromRepository" computerName="DB-PC" duration="00:00:00.0301322" startTime="2012-07-25T10:43:49.7891696+01:00" endTime="2012-07-25T10:43:50.0441700+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36ef6cb7-229d-4b04-8338-d11c34a3221c">
+    </UnitTestResult>
+    <UnitTestResult executionId="50eef78d-33b3-4127-9287-4c20b1748936" testId="837bc3b4-d1aa-6938-a30b-945efebea5d6" testName="parseContributionsTest" computerName="DB-PC" startTime="2012-07-25T10:43:50.0491700+01:00" endTime="2012-07-25T10:43:50.2491703+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50eef78d-33b3-4127-9287-4c20b1748936">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:53507/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_parseContributionsTe.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DB-PC\WebRequestResponse_parseContributionsTe.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="3035a630-e4d3-4066-89f8-0c274fcc6485" testId="9046cae3-a61f-96f0-8fa1-4451ad2286dd" testName="parseResultsTest" computerName="DB-PC" startTime="2012-07-25T10:43:50.2491703+01:00" endTime="2012-07-25T10:43:50.4691706+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3035a630-e4d3-4066-89f8-0c274fcc6485">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:53507/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_parseResultsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DB-PC\WebRequestResponse_parseResultsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="7220e5f1-818c-40a8-ad32-907838ea53cf" testId="af2355c4-02af-79bb-5762-10f56d80dae0" testName="parsecsvTest" computerName="DB-PC" duration="00:00:00.0158288" startTime="2012-07-25T10:43:50.4791706+01:00" endTime="2012-07-25T10:43:50.4991706+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7220e5f1-818c-40a8-ad32-907838ea53cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="2e8697df-93d0-4861-bd11-76942c9b2335" testId="af8e6f2a-4215-113b-1498-0851cedd99a5" testName="Index_Get_AsksForIndexView" computerName="DB-PC" duration="00:00:00.0004059" startTime="2012-07-25T10:43:50.4991706+01:00" endTime="2012-07-25T10:43:50.5041706+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e8697df-93d0-4861-bd11-76942c9b2335">
+    </UnitTestResult>
+    <UnitTestResult executionId="1143bb8d-f0df-4fd3-860c-2cf9f08a6027" testId="b10192e2-093c-4de7-6c9b-de775bc9b4e0" testName="nullCSV" computerName="DB-PC" duration="00:00:00.0012364" startTime="2012-07-25T10:43:50.5091706+01:00" endTime="2012-07-25T10:43:50.5141707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1143bb8d-f0df-4fd3-860c-2cf9f08a6027">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e08e494-2136-4202-95f3-ffcabfd8e23f" testId="bf3c0814-b6d0-cc49-ff05-7e717a971cf6" testName="parsecsvTest2" computerName="DB-PC" duration="00:00:00.0024662" startTime="2012-07-25T10:43:50.5141707+01:00" endTime="2012-07-25T10:43:50.5241707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e08e494-2136-4202-95f3-ffcabfd8e23f">
+    </UnitTestResult>
+    <UnitTestResult executionId="c03ad5b3-e691-4964-8f14-12e65b3d4e12" testId="c90dda35-ad84-fc40-7268-f818f88cbea7" testName="supportsTypeTest" computerName="DB-PC" startTime="2012-07-25T10:43:50.5241707+01:00" endTime="2012-07-25T10:43:50.7141709+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c03ad5b3-e691-4964-8f14-12e65b3d4e12">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:53507/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_supportsTypeTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DB-PC\WebRequestResponse_supportsTypeTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="b56f7434-0861-4cb9-9991-b12a160eee9b" testId="e9bef975-94b0-3198-0e11-ae8b66c60d32" testName="Index_Get_RetrievesAllContributionsFromRepository2" computerName="DB-PC" duration="00:00:00.0180086" startTime="2012-07-25T10:43:50.7291710+01:00" endTime="2012-07-25T10:43:50.7491710+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b56f7434-0861-4cb9-9991-b12a160eee9b">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.Contains failed. </Message>
+          <StackTrace>   at teamcanada.Tests.Controllers.HomeController2Test.Index_Get_RetrievesAllContributionsFromRepository2() in C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\Controllers\HomeController2Test.cs:line 194
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ab865cb-d614-4858-a599-4a7388e046fc" testId="f6579fb4-0d0c-8d1a-48e0-a4a31bab33f7" testName="notCSV" computerName="DB-PC" duration="00:00:00.0003177" startTime="2012-07-25T10:43:50.7541710+01:00" endTime="2012-07-25T10:43:50.7641710+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ab865cb-d614-4858-a599-4a7388e046fc">
+    </UnitTestResult>
+  </Results>
+</TestRun>
