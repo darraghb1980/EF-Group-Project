@@ -11,10 +11,11 @@ namespace teamcanada.Models.ui
         public String ElectionType { get; set; }
         public int ElectionYear { get; set; }
         public int NumVotes { get; set; }
-        public String Wardnum { get; set; }
+        public int WardNum { get; set; }
         public String CandidateFirstName { get; set; }
         public String CandidateLastName { get; set; }
         public String ContributionTypeDesc { get; set; }
+        //public float Amount { get; set; }  ---- do this after we get a join working
 
         //public int TotalContributions { get; set; }  
         //public int TotalContributionType { get; set; }  

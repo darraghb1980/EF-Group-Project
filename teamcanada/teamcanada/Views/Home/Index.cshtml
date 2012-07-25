@@ -1,4 +1,6 @@
-﻿@{
+﻿@model teamcanada.Models.ui.ReportsUI
+
+@{
     ViewBag.Title = "Toronto Electoral Reports";
 }
 
@@ -21,4 +23,13 @@
 <p>To view all data, use the links along the top menu.</p>
 <p>Alternatively build a custom report using the form below.</p>
 
+@using (Html.BeginForm())
+{
+    <div>
+    @Html.DropDownList("ElectionType", (IEnumerable<SelectListItem>) ViewBag.ElectionType)
+    </div>
+    <br />
 
+    
+    <input id="Submit1" type="submit" value="submit" />
+}

@@ -20,21 +20,25 @@ namespace teamcanada.dal
         {
             using (torontoDB db = new torontoDB())
             {
-                //var electoraltype = 1;
 
                 var reportData = from c in db.ElectionContributions.AsEnumerable()
-                                
-                 where c.ElectionType == ("Mayoral")
+                
+                                 // filter the report by Mayoral/2010/ward number 2. This is hardcoded, but should be taking these values
+                                 // from select boxes on the view
+                                 
+                                 where c.ElectionType == ("Mayoral") && c.ElectionYear == (Convert.ToDouble(2010)) && c.WardNum == 2
 
-                                 select new ReportsUI                                       // Create new ReportUI object and assign it the values selected from the database
+     
+                                  select new ReportsUI                                       // Create new ReportUI object and assign it the values selected from the database
                                   {
                                       ElectionType = c.ElectionType,
                                       ElectionYear = c.ElectionYear,
                                       CandidateFirstName = c.CandidateFirstName,
                                       CandidateLastName = c.CandidateLastName,
-                                      ContributionTypeDesc = c.ContributionTypeDesc
-                                  };
+                                      ContributionTypeDesc = c.ContributionTypeDesc,
+                                      WardNum = c.WardNum                    
 
+                                  };
 
                 return reportData.ToArray();                                                // ToArray() method is needed to prevent DbContext error
 
