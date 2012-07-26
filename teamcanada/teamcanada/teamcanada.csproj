@@ -135,13 +135,17 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ContribReportsController.cs" />
     <Compile Include="Controllers\ContributionsController.cs" />
     <Compile Include="Controllers\HomeController2.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ReportsController.cs" />
     <Compile Include="Controllers\ResultsController.cs" />
+    <Compile Include="Controllers\VoteReportsController.cs" />
+    <Compile Include="dal\ContribReportsDAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dal\csvParseDAL.cs" />
-    <Compile Include="dal\ReportsDAL.cs" />
+    <Compile Include="dal\VoteReportsDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,6 +188,14 @@
     <Compile Include="Migrations\201207232125420_new_dal1.cs" />
     <Compile Include="Migrations\201207232125420_new_dal1.Designer.cs">
       <DependentUpon>201207232125420_new_dal1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201207260946561_uimodel.cs" />
+    <Compile Include="Migrations\201207260946561_uimodel.Designer.cs">
+      <DependentUpon>201207260946561_uimodel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201207261134405_viewmodel.cs" />
+    <Compile Include="Migrations\201207261134405_viewmodel.Designer.cs">
+      <DependentUpon>201207261134405_viewmodel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -241,6 +253,12 @@
     <Content Include="Scripts\knockout-2.0.0.debug.js" />
     <Content Include="Scripts\knockout-2.0.0.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
+    <Content Include="Views\ContribReports\Report1.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Views\VoteReports\Report1.cshtml">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -299,11 +317,8 @@
     <Content Include="Views\Results\Edit.cshtml" />
     <Content Include="Views\Results\Index.cshtml" />
     <None Include="ClassDiagram2.cd" />
-    <Content Include="Views\Reports\Create.cshtml" />
-    <Content Include="Views\Reports\Delete.cshtml" />
-    <Content Include="Views\Reports\Details.cshtml" />
-    <Content Include="Views\Reports\Edit.cshtml" />
-    <Content Include="Views\Reports\Index.cshtml" />
+    <Content Include="Views\ContribReports\Report2.cshtml" />
+    <Content Include="Views\VoteReports\Report2.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -321,7 +336,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53507</DevelopmentServerPort>
+          <DevelopmentServerPort>61271</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

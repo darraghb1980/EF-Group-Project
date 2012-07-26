@@ -4,13 +4,13 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Filtered Report: Most popular candidates in the 2006 Council Race</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+   This report displays candidates who received 5000 or higher votes in the 2006 Council Elections.
 </p>
-<table>
-    <tr>
+<table class="sample">
+    <tr class="d0">
         <th>
             @Html.DisplayNameFor(model => model.ElectionType)
         </th>
@@ -18,10 +18,7 @@
             @Html.DisplayNameFor(model => model.ElectionYear)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.NumVotes)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Wardnum)
+            @Html.DisplayNameFor(model => model.WardNum)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.CandidateFirstName)
@@ -30,13 +27,12 @@
             @Html.DisplayNameFor(model => model.CandidateLastName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ContributionTypeDesc)
+            @Html.DisplayNameFor(model => model.NumVotes)
         </th>
-        <th></th>
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
+    <tr class="d1">
         <td>
             @Html.DisplayFor(modelItem => item.ElectionType)
         </td>
@@ -44,10 +40,7 @@
             @Html.DisplayFor(modelItem => item.ElectionYear)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.NumVotes)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Wardnum)
+            @Html.DisplayFor(modelItem => item.WardNum)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.CandidateFirstName)
@@ -56,14 +49,9 @@
             @Html.DisplayFor(modelItem => item.CandidateLastName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.ContributionTypeDesc)
+            @Html.DisplayFor(modelItem => item.NumVotes)
         </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
-        </td>
-    </tr>
+        </tr>
 }
 
 </table>

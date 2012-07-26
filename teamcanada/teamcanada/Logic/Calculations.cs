@@ -24,7 +24,7 @@ namespace teamcanada.logic
 
         public float calculateTotals()
         {
-            var sumAmount = ReportsDAL.GetReportData();
+            var sumAmount = VoteReportsDAL.GetReportData();
 
             // if getting contributions amount total do this...
             foreach (ReportsUI a in sumAmount)

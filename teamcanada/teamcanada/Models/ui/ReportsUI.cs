@@ -14,6 +14,8 @@ namespace teamcanada.Models.ui
         public int WardNum { get; set; }
         public String CandidateFirstName { get; set; }
         public String CandidateLastName { get; set; }
+        public String ContributorLastName { get; set; }
+        public String ContributorFirstName { get; set; }
         public String ContributionTypeDesc { get; set; }
         public float Amount { get; set; }
         public float TotalAmount { get; set; }

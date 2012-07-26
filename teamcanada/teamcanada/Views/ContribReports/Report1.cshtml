@@ -1,0 +1,57 @@
+﻿@model IEnumerable<teamcanada.Models.ui.ReportsUI>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Filtered Report: Cash contributions for the Mayoral Race</h2>
+
+<p>
+   This report displays members of the public in Ward 2 who made cash-only contributions made to candidates in the 2010 Mayoral Elections.
+</p>
+<table class="sample">
+    <tr class="d0">
+        <th>
+            @Html.DisplayNameFor(model => model.ElectionType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ElectionYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WardNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContributorFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContributorLastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContributionTypeDesc)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr class="d1">
+        <td>
+            @Html.DisplayFor(modelItem => item.ElectionType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ElectionYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WardNum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContributorFirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContributorLastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContributionTypeDesc)
+        </td>
+        </tr>
+}
+
+</table>

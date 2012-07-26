@@ -16,12 +16,25 @@
     </section>
 }    
 
-(@Html.ActionLink("TESTREPORT", "Index", "Reports"))
-
-
 <h2> Welcome to the Toronto Electoral Database.</h2>
 <p>To view all data, use the links along the top menu.</p>
-<p>Alternatively build a custom report using the form below.</p>
+<p>Alternatively select a custom report or build one using the form below.</p>
+
+<h3>Campaign Contributions - Sample Reports</h3>
+
+<ul>
+<li>@Html.ActionLink("Report1", "Report1", "ContribReports")</li>
+<li>@Html.ActionLink("Report2", "Report2", "ContribReports")</li>
+</ul>
+
+<h4>Election Results - Sample Reports</h4>
+
+<ul>
+<li>@Html.ActionLink("Report1", "Report1", "VoteReports")</li>
+<li>@Html.ActionLink("Report2", "Report2", "VoteReports")</li>
+</ul>
+
+
 
 @using (Html.BeginForm())
 {

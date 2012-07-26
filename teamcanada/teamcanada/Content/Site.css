@@ -767,3 +767,31 @@ tr.pager td {
             text-indent: 0;
         }
 }
+
+
+
+/* added by Fintan */
+
+table.sample {
+	border: 1px solid black;
+	-moz-border-radius: 6px;
+	border-collapse:collapse;
+}
+table.sample td {
+	border:1px solid #98bf21;   
+	padding:3px 7px 2px 7px;
+	text-align: center;
+}
+
+table.sample th {
+  	border: 1px solid black;
+    padding: 0.2em 2ex 0.2em 2ex;
+    background-color:#A7C942;
+    color:#ffffff;
+}
+table.sample tr.d0 td {
+	background-color: #FCF6CF;
+}
+table.sample tr.d1 td {
+	background-color: #FEFEF2;
+}
