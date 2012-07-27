@@ -50,24 +50,7 @@ namespace teamcanada.Tests.Controllers
             };
         }
 
-        //remove for now but incorporate after
-        /*
-        Contributions GetContributionIllegal(int number, string twentytwelve)
-        {
-            return new Contributions
-            {
-               ElectionType = 666,
-               ElectionYear = "twentytwelve",
-                    
-                /*Id = 99,
-                permType = 10,
-                postalAddr = "illegal architect name",
-                appName = "Murphy",
-                appDate = "21-12-2011",
-                archName = "/&\u0022&&&Lyons"
-            };
-        }*/
-
+       
         Contributions GetContribution()
         {
             return GetContribution("Council", 2020, "Second", "first", "123 main st", "abc123", 999,
@@ -94,9 +77,7 @@ namespace teamcanada.Tests.Controllers
                 ContributorTypeDesc = crTDesc,
                 CandidateFirstName = cnFName,
                 CandidateLastName = cnLName,
-                /* LastName = lName,
-                 Phone = "710-555-0173",
-                 Email = "janet1@adventure-works.com"*/
+                
             };
         }
 
@@ -198,79 +179,7 @@ namespace teamcanada.Tests.Controllers
         }
 
 
-
-        /*not needed as we don't create contribution
-        //To add a test for creating a Contribution
-        [TestMethod]
-        public void Create_Post_ReturnsViewIfModelStateIsNotValid()
-        {
-            // Arrange
-            HomeController2 controller = GetHomeController(new InMemoryContributionRepository());
-            // Simply executing a method during a unit test does just that - executes a method, and no more. 
-            // The MVC pipeline doesn't run, so binding and validation don't run.
-            controller.ModelState.AddModelError("", "mock error message");
-                
-            //******************this part isn't working
-            //******************something to do with the arguments.were initially empty
-            Contributions model = GetContributionNamed("Council",2003);
-            // Act
-            var result = (ViewResult)controller.Create(model);
-
-            // Assert
-            Assert.AreEqual("Create", result.ViewName);
-        }*/
-
-
-
-
-
-
-
-
-        /*
-                    //removed as not required
-                    //page 9
-                    [TestMethod]
-                    public void Create_Post_PutsValidContributionIntoRepository()
-                    {
-                        // Arrange
-                        InMemoryContributionRepository repository = new InMemoryContributionRepository();
-                        HomeController2 controller = GetHomeController(repository);
-                        //Contributions Contribution = GetContributionID_1();
-                        Contributions Contribution = GetContributionID();
-
-                        // Act
-                        controller.Create(Contribution);
-
-                        // Assert
-                        IEnumerable<Contributions> Contributions = repository.GetAllContributions();
-                        Assert.IsTrue(Contributions.Contains(Contribution));
-                    } 
-
-
-                    //page 9
-                    [TestMethod]
-                    public void Create_Post_ReturnsViewIfRepositoryThrowsException()
-                    {
-                        // Arrange
-                        InMemoryContributionRepository repository = new InMemoryContributionRepository();
-                        Exception exception = new Exception();
-                        repository.ExceptionToThrow = exception;
-                        HomeController2 controller = GetHomeController(repository);
-                        //next line, i've removed "ID_1" from end of GetContribution
-                        Contributions model = GetContribution();
-
-                        // Act
-                        var result = (ViewResult)controller.Create(model);
-
-                        // Assert
-                        Assert.AreEqual("Create", result.ViewName);
-                        ModelState modelState = result.ViewData.ModelState[""];
-                        Assert.IsNotNull(modelState);
-                        Assert.IsTrue(modelState.Errors.Any());
-                        Assert.AreEqual(exception, modelState.Errors[0].Exception);
-                    } 
-                    */
+             
 
     }
 

@@ -122,7 +122,6 @@
     <Compile Include="DataParseTest.cs" />
     <Compile Include="Models\MocContributionRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="torontoDbTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />

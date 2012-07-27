@@ -67,84 +67,7 @@ namespace teamcanada.Tests
         //
         #endregion
 
-        /*removing auto generated tests
-        /// <summary>
-        ///A test for DataParse Constructor
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
-        [TestMethod]
-        //[HostType("ASP.NET")]
-        //[AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
-        //[UrlToTest("http://localhost:53507/")]
-        public void DataParseConstructorTest()
-        {
-            DataParse target = new DataParse();
-            Assert.Inconclusive("TODO: Implement code to verify target");
-        }
-
-        /// <summary>
-        ///A test for teamcanada.ingestion.AllDataParser.parseContributions
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
-        [UrlToTest("http://localhost:53507/")]
-        [DeploymentItem("teamcanada.dll")]
-        public void parseContributionsTest()
-        {
-            AllDataParser target = new DataParse(); // TODO: Initialize to an appropriate value
-            List<Contributions> expected = null; // TODO: Initialize to an appropriate value
-            List<Contributions> actual;
-            actual = target.parseContributions();
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
-        }
-
-        /// <summary>
-        ///A test for teamcanada.ingestion.AllDataParser.parseResults
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
-        [UrlToTest("http://localhost:53507/")]
-        [DeploymentItem("teamcanada.dll")]
-        public void parseResultsTest()
-        {
-            AllDataParser target = new DataParse(); // TODO: Initialize to an appropriate value
-            List<Results> expected = null; // TODO: Initialize to an appropriate value
-            List<Results> actual;
-            actual = target.parseResults();
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
-        }
-
-        /// <summary>
-        ///A test for teamcanada.ingestion.AllDataParser.setStreamSource
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\DB\\Documents\\GitHub\\EF-Group-Project\\teamcanada\\teamcanada", "/")]
-        [UrlToTest("http://localhost:53507/")]
-        [DeploymentItem("teamcanada.dll")]
-        public void setStreamSourceTest()
-        {
-            AllDataParser target = new DataParse(); // TODO: Initialize to an appropriate value
-            StreamReader reader = null; // TODO: Initialize to an appropriate value
-            target.setStreamSource(reader);
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
-        }
-        */
+       
         /// <summary>
         ///A test for teamcanada.ingestion.AllDataParser.supportsType
         ///</summary>
@@ -163,18 +86,7 @@ namespace teamcanada.Tests
             //Assert.Inconclusive("Verify the correctness of this test method.");
         }
 
-       /* same as previous
-        * [TestMethod()]
-        public void nullCSV()
-        {
-            AllDataParser target = new DataParse(); // TODO: Initialize to an appropriate value
-            string format = "csv"; // TODO: Initialize to an appropriate value
-            bool expected = true; ; // TODO: Initialize to an appropriate value
-            bool actual;
-            actual = target.supportsType(format);
-            Assert.AreEqual(expected, actual);
-            //Assert.Inconclusive("Verify the correctness of this test method.");
-        }*/
+       
 
         [TestMethod()]
         public void notCSV()
@@ -262,7 +174,7 @@ namespace teamcanada.Tests
 
             Assert.IsNotNull(ElectionType);
 
-            // As an exercise for the reader, make sure that the rate object is correctly populated
+          
         }
     }
 }
