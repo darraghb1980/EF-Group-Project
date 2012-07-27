@@ -26,19 +26,17 @@ namespace teamcanada.Controllers
 
             ViewBag.ElectionType = etype;
 
-            /* Get the year of election from one of the tables so we can pass them to the drop down list on the view 
+            // Get the year of election from one of the tables so we can pass them to the drop down list on the view 
 
-            IEnumerable<SelectListItem> eyear = db.ElectionResults.Select(y => new SelectListItem
+            IEnumerable<SelectListItem> eyear = db.ElectionResults.AsEnumerable().Select(y => y.ElectionYear).Distinct().Select(y => new SelectListItem
 
             {
-                Value = y.ElectionYear,
-                Text = y.ElectionYear
-            }).ToString().Distinct();
+                Value = y.ToString(),
+                Text = y.ToString()
+            });
 
             ViewBag.ElectionYear = eyear;
              
-             */
-
             return View();
         }
 

@@ -38,11 +38,15 @@
 
 @using (Html.BeginForm())
 {
+    <h4>Select from the following options to generate a report</h4>
+    <br />
     <div>
-    @Html.DropDownList("ElectionType", (IEnumerable<SelectListItem>) ViewBag.ElectionType)
+    @Html.DropDownList("ElectionType", (IEnumerable<SelectListItem>)ViewBag.ElectionType)
+    </div>
+    <div>
+    @Html.DropDownList("ElectionYear", (IEnumerable<SelectListItem>)ViewBag.ElectionYear)
     </div>
     <br />
-
     
     <input id="Submit1" type="submit" value="submit" />
 }

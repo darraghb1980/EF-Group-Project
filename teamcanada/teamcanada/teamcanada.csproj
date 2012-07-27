@@ -140,11 +140,13 @@
     <Compile Include="Controllers\HomeController2.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ResultsController.cs" />
+    <Compile Include="Controllers\UserReportsController.cs" />
     <Compile Include="Controllers\VoteReportsController.cs" />
     <Compile Include="dal\ContribReportsDAL.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="dal\csvParseDAL.cs" />
+    <Compile Include="dal\UserReportsDAL.cs" />
     <Compile Include="dal\VoteReportsDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -319,6 +321,11 @@
     <None Include="ClassDiagram2.cd" />
     <Content Include="Views\ContribReports\Report2.cshtml" />
     <Content Include="Views\VoteReports\Report2.cshtml" />
+    <Content Include="Views\UserReports\Index.cshtml" />
+    <Content Include="Views\UserReports\Details.cshtml" />
+    <Content Include="Views\UserReports\Create.cshtml" />
+    <Content Include="Views\UserReports\Edit.cshtml" />
+    <Content Include="Views\UserReports\Delete.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

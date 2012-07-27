@@ -186,3 +186,5 @@ C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\De
 C:\Users\DB\Documents\GitHub\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada_Accessor.pdb
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada_Accessor.dll
 C:\EF Project\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada_Accessor.pdb
+C:\College\EF\EF_Project\darraghb1980-EF-Group-Project-5996970\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada_Accessor.dll
+C:\College\EF\EF_Project\darraghb1980-EF-Group-Project-5996970\EF-Group-Project\teamcanada\teamcanada.Tests\bin\Debug\teamcanada_Accessor.pdb

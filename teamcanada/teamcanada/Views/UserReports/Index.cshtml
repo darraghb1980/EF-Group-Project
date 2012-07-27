@@ -1,0 +1,93 @@
+﻿@model IEnumerable<teamcanada.Models.ui.ReportsUI>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ElectionType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ElectionYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumVotes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WardNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CandidateFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CandidateLastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContributorLastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContributorFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContributionTypeDesc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ElectionType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ElectionYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumVotes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WardNum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CandidateFirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CandidateLastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContributorLastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContributorFirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContributionTypeDesc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalAmount)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

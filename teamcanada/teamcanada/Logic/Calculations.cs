@@ -45,6 +45,19 @@ namespace teamcanada.logic
 
 
         }
+
+        public int calculateTotalVotes()
+        {
+            var sumVote = VoteReportsDAL.GetReportData();
+
+            foreach (ReportsUI n in sumVote)
+            {
+                totalVotes += n.NumVotes;
+            }
+
+            return totalVotes;
+
+        }
     }
 
 
