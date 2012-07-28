@@ -18,9 +18,9 @@ namespace teamcanada.Controllers
         //
         // GET: /UserReports
 
-        public ActionResult Index(string ElectionType, int ElectionYear, int WardNum)
+        public ActionResult Index(string ElectionType, int ElectionYear, int WardNum, String CandidateLastName, string ContributionTypeDesc)
         {
-            return View(UserReportsDAL.GetReportData(ElectionType, ElectionYear, WardNum));
+            return View(UserReportsDAL.GetReportData(ElectionType, ElectionYear, WardNum, CandidateLastName, ContributionTypeDesc));
         }
     }
 }

@@ -41,14 +41,27 @@
     <h4>Select from the following options to generate a report</h4>
     <br />
     <div>
+    @Html.Label("Select the Election Type")
     @Html.DropDownList("ElectionType", (IEnumerable<SelectListItem>)ViewBag.ElectionType)
     </div>
     <div>
+    @Html.Label("Select the Election Year")
     @Html.DropDownList("ElectionYear", (IEnumerable<SelectListItem>)ViewBag.ElectionYear)
     </div>
     <div>
+    @Html.Label("Select the Ward Number")
     @Html.DropDownList("WardNum", (IEnumerable<SelectListItem>)ViewBag.WardNum)
     </div>
+    <div>
+    @Html.Label("Select the Candidate Surname")
+    @Html.DropDownList("CandidateLastName", (IEnumerable<SelectListItem>)ViewBag.CandidateLastName)
+    </div>
+        <div>
+    @Html.Label("Select the type of contribution")
+    @Html.DropDownList("ContributionTypeDesc", (IEnumerable<SelectListItem>)ViewBag.ContributionTypeDesc)
+    </div>
+    
+        <br />
     <br />
     
     <input id="Submit1" type="submit" value="submit" />

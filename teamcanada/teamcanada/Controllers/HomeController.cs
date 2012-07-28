@@ -44,7 +44,24 @@ namespace teamcanada.Controllers
             });
 
             ViewBag.WardNum = wnum;
-             
+
+            IEnumerable<SelectListItem> lname = db.ElectionContributions.AsEnumerable().Select(x => x.CandidateLastName).Distinct().Select(x => new SelectListItem
+            {
+                Value = x.ToString(),
+                Text = x.ToString()
+            });
+
+            ViewBag.CandidateLastName = lname;
+
+            IEnumerable<SelectListItem> cname = db.ElectionContributions.AsEnumerable().Select(x => x.ContributionTypeDesc).Distinct().Select(x => new SelectListItem
+            {
+                Value = x.ToString(),
+                Text = x.ToString()
+            });
+
+            ViewBag.ContributionTypeDesc = cname;
+
+
             return View();
         }
         
