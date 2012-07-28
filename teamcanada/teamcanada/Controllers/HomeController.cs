@@ -36,12 +36,18 @@ namespace teamcanada.Controllers
             });
 
             ViewBag.ElectionYear = eyear;
+
+            IEnumerable<SelectListItem> wnum = db.ElectionResults.AsEnumerable().Select(x => x.WardNum).Distinct().Select(x => new SelectListItem
+            {
+                Value = x.ToString(),
+                Text = x.ToString()
+            });
+
+            ViewBag.WardNum = wnum;
              
             return View();
         }
-
-    
-
+        
         public ActionResult ViewResults()
         {
             ViewBag.Message = "View a list of all Election Results.";

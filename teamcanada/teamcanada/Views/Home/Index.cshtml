@@ -36,7 +36,7 @@
 
 
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("Index", "UserReports", FormMethod.Get))
 {
     <h4>Select from the following options to generate a report</h4>
     <br />
@@ -45,6 +45,9 @@
     </div>
     <div>
     @Html.DropDownList("ElectionYear", (IEnumerable<SelectListItem>)ViewBag.ElectionYear)
+    </div>
+    <div>
+    @Html.DropDownList("WardNum", (IEnumerable<SelectListItem>)ViewBag.WardNum)
     </div>
     <br />
     

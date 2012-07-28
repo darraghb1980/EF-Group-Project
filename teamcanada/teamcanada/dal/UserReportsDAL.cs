@@ -9,7 +9,7 @@ namespace teamcanada.dal
 {
     public class UserReportsDAL
     {
-        public static IEnumerable<ReportsUI> GetReportData()                                 // Method to select data from the database
+        public static IEnumerable<ReportsUI> GetReportData(string ElectionType, int ElectionYear, int WardNum)                                 // Method to select data from the database
         {
             using (torontoDB db = new torontoDB())
             {
@@ -19,7 +19,7 @@ namespace teamcanada.dal
                                  // filter the report. This is hardcoded, but we should be taking these values
                                  // from select boxes on the view
 
-                                 where c.ElectionType == ("Mayoral") && c.ElectionYear == (Convert.ToDouble(2010)) && c.WardNum == 2
+                                 where c.ElectionType == (ElectionType) && c.ElectionYear == (Convert.ToDouble(ElectionYear)) && c.WardNum == (Convert.ToDouble(WardNum))
 
                                  select new ReportsUI                                       // Create new ReportUI object and assign it the values selected from the database
                                  {
